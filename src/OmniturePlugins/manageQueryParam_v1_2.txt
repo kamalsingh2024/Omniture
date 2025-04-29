@@ -1,0 +1,80 @@
+/********************************************************************
+ *
+ * Main Plug-in code (should be in Plug-ins section)
+ *
+ *******************************************************************/
+/*
+ *	Plug-in: manageQueryParam v1.2 - Manages query string parameters
+ *	by either encoding, swapping, or both encoding and swapping a value. 
+ */                                                                                       
+
+s.manageQueryParam=new Function("p","w","e","u",""
++"var s=this,x,y,i,qs,qp,qv,f,b;u=u?u:(s.pageURL?s.pageURL:''+s.wd.lo"
++"cation);u=u=='f'?''+s.gtfs().location:u+'';x=u.indexOf('?');qs=x>-1"
++"?u.substring(x,u.length):'';u=x>-1?u.substring(0,x):u;x=qs.indexOf("
++"'?'+p+'=');if(x>-1){y=qs.indexOf('&');f='';if(y>-1){qp=qs.substring"
++"(x+1,y);b=qs.substring(y+1,qs.length);}else{qp=qs.substring(1,qs.le"
++"ngth);b='';}}else{x=qs.indexOf('&'+p+'=');if(x>-1){f=qs.substring(1"
++",x);b=qs.substring(x+1,qs.length);y=b.indexOf('&');if(y>-1){qp=b.su"
++"bstring(0,y);b=b.substring(y,b.length);}else{qp=b;b='';}}}if(e&&qp)"
++"{y=qp.indexOf('=');qv=y>-1?qp.substring(y+1,qp.length):'';var eui=0"
++";while(qv.indexOf('%25')>-1){qv=unescape(qv);eui++;if(eui==10)break"
++";}qv=s.rep(qv,'+',' ');qv=escape(qv);qv=s.rep(qv,'%25','%');qv=s.re"
++"p(qv,'%7C','|');qv=s.rep(qv,'%7c','|');qp=qp.substring(0,y+1)+qv;}i"
++"f(w&&qp){if(f)qs='?'+qp+'&'+f+b;else if(b)qs='?'+qp+'&'+b;else qs='"
++"?'+qp}else if(f)qs='?'+f+'&'+qp+b;else if(b)qs='?'+qp+'&'+b;else if"
++"(qp)qs='?'+qp;return u+qs;");	
+
+
+
+
+/********************************************************************
+ *
+ * Commented example of how to use this is doPlugins function
+ *
+ *******************************************************************/
+/* Plug-in Example: manageQueryParam v1.2
+	In the following sample call:
+	The parameter s_kwcid will be searched for in the s.tempURL variable.
+	The value will then be encoded (the 1 flag is set)  and then moved to
+	be the first query string parameter (the 1 flag is set).  The value
+	s.pageURL will have the newly constructed/encoded domain+query string
+	parameters value.
+	
+	s.pageURL=s.manageQueryParam('s_kwcid',1,1,s.tempURL);
+*/
+
+/*********************************************************************
+*	Function manageQueryParam(p,w,e,u)
+*	
+*	The general purpose of this plugin is to search all query string parameters
+*	for a given parameter (the name is passed in as a function parameter).	If "param"
+*	exists, check whether the value should be encoded.	If its value needs to be encoded,
+*	first fully decode it, then re-encode it with the exception of pipe (|) symbols which
+*	should remain decoded. Check whether the value should be swapped, meaning put to the front
+*	of the query string parameter list.	If it does, move "param" before all other parameters.
+*	The function should return the URL value entered (or derived from the document's location)
+*	with the required modifications (encoding and swapping).
+* 	
+*	CONFIGURATION VARIABLES:
+*		None
+*	
+*	PARAMETERS:
+*		p = param to identify
+*		w = swap flag (0 for no, or 1 for yes)
+*		e = encode/decode flag for search center (0 for no, or 1 for yes)
+*		u = url to manage (optional - default will get current url)
+*
+*	RETURNS:
+*		IF the "param" was set, the URL with the modified query string parameters list
+*			will be returned
+*		ELSE an empty string will be returned.
+*********************************************************************/
+
+/********************************************************************
+ *
+ * Utility functions that may be shared between plug-ins (name only)
+ *
+ *******************************************************************/
+ 
+	None

@@ -1,0 +1,39 @@
+/********************************************************************
+ *
+ * Main Plug-in code (should be in Plug-ins section)
+ *
+ *******************************************************************/
+/*
+ * Plugin: getValOnce_v1.0
+ */
+s.getValOnce=new Function("v","c","e",""
++"var s=this,a=new Date,v=v?v:v='',c=c?c:c='s_gvo',e=e?e:0,k=s.c_r(c"
++");if(v){a.setTime(a.getTime()+e*86400000);s.c_w(c,v,e?a:0);}return"
++" v==k?'':v");
+
+
+
+/********************************************************************
+ *
+ * Commented example of how to use this is doPlugins function
+ *
+ *******************************************************************/
+	/* Plugin Example: getValOnce_v1.0
+		s.campaign=s.getValOnce(s.campaign,'s_campaign',30);
+	*/
+
+
+/********************************************************************
+ *
+ * Config variables (should be above doPlugins section)
+ *
+ *******************************************************************/
+NONE
+
+
+/********************************************************************
+ *
+ * Supporting functions that may be shared between plug-ins (name only)
+ *
+ *******************************************************************/
+NONE

@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Unica test</title>
+	</head>
+	
+	<body>
+		<h1>Unica test</h1>
+		<p>This s_code.js file referenced from this test document contains a proof-of-concept plugin that
+		re-writes BigPond Omniture calls and makes them into calls to Unica.</p>
+		<script type="text/javascript" src="s_code.js"></script>
+		<script type="text/javascript" src="Omniture_site_specific_code.js"></script>
+		<script type="text/javascript">
+			s.products=";myproduct;1;9.99,;yourproduct;1;19.99";
+			s.events="purchase";
+			s.purchaseID = 'fkjghfkjgf12121535';
+			BP_SC.reportingBeacon(1, 'Division|Sub Division|Site|Site Section|Sub Section|Sub Sub Section')
+		</script>
+	</body>
+</html>

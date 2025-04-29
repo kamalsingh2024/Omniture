@@ -1,0 +1,23 @@
+Info from:
+http://webanalyticsland.com/sitecatalyst-implementation/how-to-add-page-views-and-visits-to-all-sitecatalyst-evars/
+
+See also:
+http://webanalyticsland.com/plugins/Append_to_List_Plugin.pdf
+
+1.
+s.apl(L,v,d,u)
+L = source list, empty list is accepted
+v = value to append
+d = list delimiter
+u (optional, defaults to 0) Unique value check.
+		0=no unique check, value is always appended.
+		1=case insensitive check, append only if value isn’t in list.
+		2=case sensitive check, append only if value isn’t in list.
+
+/*
+* Plugin Utility: apl v1.1
+*/
+s.apl=new Function("L","v","d","u",""
++"var s=this,m=0;if(!L)L='';if(u){var i,n,a=s.split(L,d);for(i=0;i<a."
++"length;i++){n=a[i];m=m||(u==1?(n==v):(n.toLowerCase()==v.toLowerCas"
++"e()));}}if(!m)L=L?L+d+v:v;return L");

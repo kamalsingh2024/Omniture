@@ -1,0 +1,35 @@
+/********************************************************************
+ *
+ * Main Plug-in code (should be in Plug-ins section)
+ *
+ *******************************************************************/
+/*
+ * Plugin Utility: Replace v1.0
+ */
+s.repl=new Function("x","o","n",""
++"var i=x.indexOf(o),l=n.length;while(x&&i>=0){x=x.substring(0,i)+n+x."
++"substring(i+o.length);i=x.indexOf(o,i+l)}return x");
+
+/********************************************************************
+ *
+ * Commented example of how to use this is doPlugins function
+ *
+ *******************************************************************/
+  
+   Not Applicable - Utility function only
+
+/********************************************************************
+ *
+ * Config variables (should be above doPlugins section)
+ *
+ *******************************************************************/
+  
+  None
+
+/********************************************************************
+ *
+ * Utility functions that may be shared between plug-ins (name only)
+ *
+ *******************************************************************/
+ 
+  None

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Test your new version of the s_code.js file</title>
+	</head>
+	
+	<body>
+		<h1>Test your new s_code.js</h1>
+		<p>Open the <a href='javascript:void(window.open("","stats_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\"src=\"https://sitecatalyst.omniture.com/sc_tools/stats_debugger.html\"></"+"script>" + "<script language=\"JavaScript\">window.focus();</script>"));'>Omniture debugger</a></p>
+		<p>It should look something like this:</p>
+		<p><img src="debugger.png" /></p>
+
+		<script type="text/javascript" src="../s_code.js"></script>
+		<script type="text/javascript">
+			// Dev report suites
+			s.un      = 'telstraglobaldev,telstrabpbigponddev';
+
+			// SignUp:Online:New or Existing
+			// SignUp:Online:ConfirmationThankYou
+			s.prop1   = 'Prop1';
+			s.prop2   = 'Prop2';
+			s.prop3   = 'SignUp';
+			s.channel = 'Online';
+			s.prop4   = 'New or Existing';
+			s.prop5   = 'Prop5';
+			s.pageName = s.prop1;
+			if (s.prop3) s.pageName += ':' + s.prop3;
+			if (s.channel) s.pageName += ':' + s.channel;
+			if (s.prop4) s.pageName += ':' + s.prop4;
+			if (s.prop5) s.pageName += ':' + s.prop5;
+			s.hier1 = s.prop1;
+			if (s.prop2) s.hier1 += '|' + s.prop2;
+			if (s.prop3) s.hier1 += '|' + s.prop3;
+			if (s.channel) s.hier1 += '|' + s.channel;
+			if (s.prop4) s.hier1 += '|' + s.prop4;
+			if (s.prop5) s.hier1 += '|' + s.prop5;
+			s.server = 's.server';
+			s.eVar1 = s.prop1;
+			s.eVar2 = s.prop2;
+			s.eVar3 = s.prop3;
+			s.eVar4 = s.channel;
+			s.eVar5 = s.prop4;
+			s.eVar15 = s.prop5;
+			var s_code = s.t();
+			if (s_code) document.write(s_code);
+		</script>		
+	</body>
+</html>

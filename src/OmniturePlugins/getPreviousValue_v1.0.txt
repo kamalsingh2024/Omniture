@@ -1,0 +1,45 @@
+/********************************************************************
+ *
+ * Main Plug-in code (should be in Plug-ins section)
+ *
+ *******************************************************************/
+/*
+ * Plugin: getPreviousValue v1.0 - return previous value of designated
+ *   variable (requires split utility)
+ */
+s.getPreviousValue=new Function("v","c","el",""
++"var s=this,t=new Date,i,j,r='';t.setTime(t.getTime()+1800000);if(el"
++"){if(s.events){i=s.split(el,',');j=s.split(s.events,',');for(x in i"
++"){for(y in j){if(i[x]==j[y]){if(s.c_r(c)) r=s.c_r(c);v?s.c_w(c,v,t)"
++":s.c_w(c,'no value',t);return r}}}}}else{if(s.c_r(c)) r=s.c_r(c);v?"
++"s.c_w(c,v,t):s.c_w(c,'no value',t);return r}");
+
+
+
+
+/********************************************************************
+ *
+ * Commented example of how to use this is doPlugins function
+ *
+ *******************************************************************/
+	/* Plugin Example: getPreviousValue v1.0
+	 // get previous value for s.pageName variable, set to prop5 on every page	
+	 s.prop5=s.getPreviousValue(s.pageName,'gpv_p5','');  	
+	*/
+
+
+/********************************************************************
+ *
+ * Config variables (should be above doPlugins section)
+ *
+ *******************************************************************/
+  None
+
+
+/********************************************************************
+ *
+ * Utility functions that may be shared between plug-ins (name only)
+ *
+ *******************************************************************/
+ 
+  Split

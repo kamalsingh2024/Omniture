@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Omniture redirect generator</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+		<script src="http://cdn.jquerytools.org/1.2.5/form/jquery.tools.min.js"></script>
+		<style type="text/css">
+			html, body, h1, form, fieldset, legend, ol, li {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				background: #ffffff;
+				color: #111111;
+				font-family: Helvetica, Arial, sans-serif;
+				padding: 20px;
+			}
+			
+			form {
+				background: #6575A0;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				padding: 20px;
+				width: 800px;
+			}
+			
+			legend {
+				color: #384313;
+				font-size: 16px;
+				font-weight: bold;
+				padding-bottom: 10px;
+				text-shadow: 0 1px 1px #c0d576;
+			}
+			
+			form ol li {
+				background: #6D89D5;
+				border-color: #e3ebc3;
+				border-style: solid;
+				border-width: 2px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				line-height: 30px;
+				list-style: none;
+				padding: 5px 10px;
+				margin-bottom: 2px;
+			}
+
+			form ol ol li {
+				background: none;
+				border: none;
+				float: left;
+			}
+			
+			form label {
+				float: left;
+				font-size: 13px;
+				width: 110px;
+			}
+
+			form fieldset fieldset label {
+				background:none no-repeat left 50%;
+				line-height: 20px;
+				padding: 0 0 0 30px;
+				width: auto;
+			}
+
+			form fieldset fieldset label:hover {
+				cursor: pointer;
+			}
+			
+			input, textarea {
+				width:600px;
+			}
+			
+			textarea {
+				height: 100px;
+			}
+			
+			#output {
+				display: none;
+			}
+			
+			#redirecturl {
+				font-family: "Courier New", Courier, monospace;
+				font-weight: bold;
+			}
+			
+			.error {
+			/* supply height to ensure consistent positioning for every browser */
+			height:35px;
+			background-color:#FFFE36;
+			border:1px solid #E1E16D;
+			font-size:11px;
+			font-weight: bold;
+			color:#000;
+			padding:3px 10px;
+			margin-left:-2px;
+		
+		
+			/* CSS3 spicing for mozilla and webkit */
+			-moz-border-radius:4px;
+			-webkit-border-radius:4px;
+			-moz-border-radius-bottomleft:0;
+			-moz-border-radius-topleft:0;
+			-webkit-border-bottom-left-radius:0;
+			-webkit-border-top-left-radius:0;
+		
+			-moz-box-shadow:0 0 6px #ddd;
+			-webkit-box-shadow:0 0 6px #ddd;
+		}
+		
+		form button {
+			background: #233F8A;
+			border: none;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			-khtml-border-radius: 20px;
+			border-radius: 20px;
+			color: #ffffff;
+			display: block;
+			font: 18px Georgia, "Times New Roman", Times, serif;
+			letter-spacing: 1px;
+			margin: auto;
+			padding: 7px 25px;
+			text-shadow: 0 1px 1px #000000;
+			text-transform: uppercase;
+		}
+
+		form button:hover {
+			background: #6575A0;
+			cursor: pointer;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Omniture redirect URL builder</h1>
+		<p>This form will create an Omniture redirect. Documented <a href="http://wiki.in.telstra.com.au/display/tls/Omniture+redirect+URL+builder">here</a>.</a></p>
+		<p>For support, email <a href="mailto:support@mediameasurement.zendesk.com">support@mediameasurement.zendesk.com</a></p>
+		<form id="campaignform" onSubmit="return null">
+			<fieldset>
+				<legend>Campaign details</legend>
+				<ol>
+					<li>
+						<label for="reportsuites">Report suites:</label>
+						<input type="text"
+						name="reportsuites"
+						title="A comma-separated list of report suite IDs."
+						pattern="[a-zA-Z0-9,]*"
+						data-message="Only letters, numbers and commas are allowed"
+						required="required"
+						id="reportsuites" />
+					</li>
+					
+					<li><label for="campaigntype">Campaign type:</label>
+						<select name="campaigntype"
+							title="You can create a redirect campaign to be recorded in any of the BigPond campaign types"
+							id="campaigntype" />
+							<option value="v7" selected>BigPond Internal campaign</option>
+							<option value="v8">BigPond External campaign</option>
+							<option value="v13">BigPond Intra Site campaign</option>
+						</select>
+					</li>
+					
+					<li>
+						<label for="campaigncode">Campaign code:</label>
+						<input type="text"
+							name="campaigncode"
+							id="campaigncode"
+							title="The campaign code is what will appear in the report inside Omniture for clicks on this link"
+							required="required"
+							pattern="\S*"
+							data-message="No spaces in campaign codes"
+							placeholder="ZBP_" />
+					</li>
+					
+					<li>
+						<label for="targeturl">Target URL:</label>
+						<input type="url"
+							name="targeturl"
+							id="targeturl"
+							title="This is the URL you want the user to end up on after clicking your link"
+							required="required"
+							placeholder="http://www.myexample.com/" />
+					</li>
+					
+					<li>
+						<label for="events">Events</label>
+						<input type="text"
+							name="events"
+							title="event42 is the conversion event 'Redirector click' in the BigPond report suite."
+							pattern="[a-zA-Z0-9,]*"
+							data-message="Only letters, numbers and commas are allowed"
+							required="required"
+							id="events" />
+					</li>
+				</ol>
+			</fieldset>
+		</form>
+		<br />
+		<form id="output">
+			<fieldset>
+				<legend>URL to paste into your link</legend>
+				<ol>
+					<li>
+						<label for="redirecturl" id="redirectoroutput">URL</label>
+						<textarea name="redirectorurl" id="redirecturl"></textarea>
+					</li>
+				</ol>
+			</fieldset>
+		</form>
+		
+		<script type="text/javascript">
+			$("#campaignform").validator();
+			var campaignCode = {};
+			campaignCode.stem = 'http://info.telstra.com/b/ss/';
+			campaignCode.reportsuites = 'telstraglobalprd,telstrabpbigpondprd';
+			campaignCode.thirdbit = '/4/REDIR?url=';
+			campaignCode.targetUrl = '';
+			campaignCode.code = '';
+			campaignCode.events = 'event42';
+			$('#reportsuites').val(campaignCode.reportsuites);
+			$('#campaigncode').val(campaignCode.code);
+			$('#targeturl').val(campaignCode.targetUrl);
+			$('#events').val(campaignCode.events);
+			
+			//http://info.telstra.com/b/ss/telstrabpthubdev/4/REDIR?url=http://www.facebook.com/&pe=lnk_e&pev1=http://hm.bigpond.com/&pev2=Facebook-Device-Page-1
+			$('input').change(function(){
+				$("#campaignform").submit();
+				if ($('#campaigncode').val() !== '' && $('#targeturl').val() !== '')
+				$('#output').show();
+				$('#redirecturl').val(campaignCode.stem + $('#reportsuites').val() + campaignCode.thirdbit + escape($('#targeturl').val()) + '&pe=lnk_o&' + $('#campaigntype option:selected').val() + '=' + $('#campaigncode').val() + '&events=' + campaignCode.events);
+				$('#output').animate({
+					backgroundColor: 'red'
+				}, 300);
+				$('#output').animate({
+					backgroundColor: '#6575A0'
+				}, 300);
+				$('#redirecturl').focus();
+				$('#redirecturl').select();
+
+			})
+		</script>
+	</body>
+</html>

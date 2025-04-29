@@ -1,0 +1,56 @@
+/********************************************************************
+ *
+ * Main Plug-in code (should be in Plug-ins section)
+ *
+ *******************************************************************/
+
+/*
+ * Utility manageVars v0.2 - clear variable values (requires split 1.5)
+ */
+s.manageVars=new Function("c","l","f",""
++"var s=this,vl,la,vla;l=l?l:'';f=f?f:1 ;if(!s[c])return false;vl='pa"
++"geName,purchaseID,channel,server,pageType,campaign,state,zip,events"
++",products,transactionID';for(var n=1;n<51;n++){vl+=',prop'+n+',eVar"
++"'+n+',hier'+n;}if(l&&(f==1||f==2)){if(f==1){vl=l;}if(f==2){la=s.spl"
++"it(l,',');vla=s.split(vl,',');vl='';for(x in la){for(y in vla){if(l"
++"a[x]==vla[y]){vla[y]='';}}}for(y in vla){vl+=vla[y]?','+vla[y]:'';}"
++"}s.pt(vl,',',c,0);return true;}else if(l==''&&f==1){s.pt(vl,',',c,0"
++");return true;}else{return false;}");
+s.clearVars=new Function("t","var s=this;s[t]='';");
+s.lowercaseVars=new Function("t",""
++"var s=this;if(s[t]){s[t]=s[t].toString();s[t]=s[t].toLowerCase();}");
+
+
+/********************************************************************
+ *
+ * Commented example of how to use this is doPlugins function
+ *
+ *******************************************************************/
+	/* Plugin Example: manageVars v0.2
+	*  Clear all variables:
+	*   s.manageVars("clearVars")
+	*             
+	*  Clear only pageName, prop1, and products:
+	*   s.manageVars("clearVars","pageName,prop1,products",1)
+	*             
+	*  Clear everything except eVar1 and events:
+	*		s.manageVars("clearVars","eVar1",2)
+	*/
+
+
+/********************************************************************
+ *
+ * Config variables (should be above doPlugins section)
+ *
+ *******************************************************************/
+
+
+
+/********************************************************************
+ *
+ * Utility functions that may be shared between plug-ins (name only)
+ *
+ *******************************************************************/
+ 
+split
+

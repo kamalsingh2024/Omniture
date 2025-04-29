@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>T-Box XML debugger</title>
+<style type="text/css">
+body {
+font-family: helvetica, verdana, arial, sans;
+font-size: 10px;
+}
+
+h1 {
+font-size: 16px;
+}
+
+h2 {
+font-size: 12px;
+}
+
+table {
+padding: 5px;
+width: 800px;
+}
+
+thead {
+background-color: blue;
+color: white;
+}
+
+tbody {
+background-color: lightgray;
+}
+
+th {
+padding: 5px;
+text-align: left;
+}
+
+td {
+padding: 5px;
+}
+
+#setupbox {
+background-color: lightblue;
+padding: 5px;
+}
+
+</style>
+</head>
+
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<h1>T-Box XML debugger</h1>
+
+<div id="setupbox">
+<h2>Setup</h2>
+<p><a href="#" onClick="$('#setup').slideToggle(); return false;">Click to view setup information</a>.</p>
+<div id="setup" style="display: none">
+<p>To use this tool, you need to change DMS settings for your test unit to:</p>
+<table>
+<thead>
+<th>DMS setting name</th>
+<th>Setting</th>
+</thead>
+<tbody>
+<tr>
+<td>reporting.server</td>
+<td>http://xmltee.rumble.net/post/</td>
+</tr>
+<tr>
+<td>reporting.omniture.reportsuites</td>
+<td>telstrabptboxdev,telstrabpiptvdev</td>
+</tr>
+<tr>
+<td>reporting.reportinglevel</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><b>Note:</b> This tool will only work with the T-Box XML POST Omniture
+beacons. The beacons generated using the JavaScript API (Apps and Games)
+will require a different test mechanism.</p>
+
+<p>Send queries to <a href="http://mediameasurement.zendesk.com">Media Measurement's ticketing system</a></p>
+</div>
+</div>
+<h2>Below you will find the latest file updates.</h2>
+<p>Click on each file to view it. Use Internet Explorer or Firefox to get good XML rendering. The files will be deleted every night at midnight AEST.</p>
+<p><b><a href="#" onClick="$('#myiframe').attr('src', 'http://xmltee.rumble.net/data/');$('myiframe').load(); return false;">Reload file list</a></b></p>
+
+<iframe src="http://xmltee.rumble.net/data/" width="100%" height="90%" id="myiframe"></iframe>
+<script type=text/javascript">
+
+</script>
+</body>
+</html>

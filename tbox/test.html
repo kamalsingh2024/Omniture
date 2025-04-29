@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>T-Box test</title>
+	</head>
+	
+	<body>
+		<h1>T-Box test</h1>
+		<script type="text/javascript" src="s_code_tbox.js"></script>
+		<script type="text/javascript">
+			BP.randomNumber =Math.floor(Math.random()*1001);
+			BP.reportingBeacon(1, 'T-Box|Apps|Games|Simon Test|' + BP.randomNumber);
+			document.write('<p>pageName: T-Box|Apps|Games|Simon Test|' + BP.randomNumber + '</p>');
+		</script>
+	</body>
+</html>

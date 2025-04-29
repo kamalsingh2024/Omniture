@@ -1,0 +1,41 @@
+/*********************************************************************
+*   Author: Alex Hill
+*     Date: 7/14/2008
+*  Version: 1.0
+*********************************************************************/
+
+/*
+ * Plugin clickThruQuality v1.0 - [one line description of plugin]
+ */
+/*********************************************************************
+* Function clickThruQuality(scp,tcth_ev,cp_ev,cff_ev,cf_th): 
+*      
+*
+*     scp 	= Query String Parameter(s)
+*     tcth_ev 	= Total Click-Throughs
+*     cp_ev 	= Click Past
+*
+* Returns:
+*     - returns null
+*     
+*********************************************************************/
+s.clickThruQuality =new Function("scp","tcth_ev","cp_ev","cff_ev","cf_th",""
++"var s=this;if(s.p_fo('clickThruQuality')==1){var ev=s.events?s.even"
++"ts+',':'';if(s.getQueryParam&&s.getQueryParam(scp)){s.events=ev+tct"
++"h_ev;if(s.c_r('cf')){var tct=parseInt(s.c_r('cf'))+1;s.c_w('cf',tct"
++",0);if(tct==cf_th&&cff_ev){s.events=s.events+','+cff_ev;}}else {s.c"
++"_w('cf',1,0);}}else {if(s.c_r('cf')>=1){s.c_w('cf',0,0);s.events=ev"
++"+cp_ev;}}}");
+
+/*********************************************************************
+* Function p_fo(x,y): Ensures the plugin code is fired only on the 
+*      first call of do_plugins
+*
+*
+* Returns:
+*     - 1 if first instance on firing
+*     - 0 if not first instance on firing
+*********************************************************************/
+s.p_fo=new Function("n",""
++"var s=this;if(!s.__fo){s.__fo=new Object;}if(!s.__fo[n]){s.__fo[n]="
++"new Object;return 1;}else {return 0;}");

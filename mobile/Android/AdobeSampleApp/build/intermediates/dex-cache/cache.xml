@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/a00b0f48e3bde397c95b8a73c141f821ef843ddc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f0eb66d1e2bcc249b94c196a4391b03d24aecf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/b3c13ab820026a1941d6b00f63c0181c0ab9811a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5e77a0f5b132c3ff8905772b95e15dcce909b73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/b02e53542c3a3fd024e641250aaa907004c06821/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a18ed7b14f5e5155aa07d064e649502d95629923/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/6afaeac827edc43608b8166d1600091435238f37/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4559ca552bd8e268916a53c3bf0a7a673931f704/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/libs/adobeMobileLibrary-4.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="27504c73f094da49afe9ed9a1cfe375def19e0b0">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/adobeMobileLibrary-4.8.1_e6138744cc2e63e59313850c4e76990fd161fb14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/acf183bf790f2006c1d18fb66e435d4274bd75fa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c25a23b16d3716cebf856d408e8fdf724bbf7482/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/ee276484dcd69e2c7051ae66fa5ababd135e7c0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65c2100812d10df899c9284d3c845dc55e97d4c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/da585afbd292de0513456d029ff5a388e8aae188/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d1721ed595e5529e4b237858d1d878d7ceedd3f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_248a08962f15836acc8cd41ec29c7b58e29b0821/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/9a6567d0af960f6deb19c7f6421253eb4f3166b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4143f537467ca10c5f70108356a6b2831075fce4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/b1e548aec76830605e4bde90d9ed4656dcb4a6ad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22a6f7ed4f567e4f1579634a7a34b442641bd7d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/f2fc51bc5af3ce84a23f2e25c561e4c9b8ac8ff2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54405d15963717e7afed991a3bfd2d6eed651052/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/b092838e1d44a5c9f5ad6dfd91eff74f924ac994/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8634834cdfc2ad9f227c179e4e858984993a8ee0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/8808998749ebb8d9b359726e354f4f7139dbaa3d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25f3d0f479f358c2f936ded34d44e721ce4f0dda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f3ab50194bfa105faabd5defc197ecff55ffff9b">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_88b33b446cd88d04ceef98c4ad164b824b4aebcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/86713dabb1c3f07efe799bd3c898ac4685be8781/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66d7a73a13f9b4cb9827e3e97ca5e4e853d7259c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ed7abe86e9790593afdaae9275a53af77d385ab3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kamalsingh/.android/build-cache/e1cf5112476bafc854654f74cfdb32dff2e7e57e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c0060f5443722edebb95a487a29383519358723/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,6 @@
+framework module Pods_ADBMobileSamples___Bloodhound {
+  umbrella header "Pods-ADBMobileSamples - Bloodhound-umbrella.h"
+
+  export *
+  module * { export * }
+}

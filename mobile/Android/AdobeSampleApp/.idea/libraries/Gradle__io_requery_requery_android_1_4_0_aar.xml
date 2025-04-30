@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.requery:requery-android:1.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery-android/1.4.0/f96bcb96b262cb0c6a524769c9b2fb2cfa63d4a0/requery-android-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.requery/requery-android/1.4.0/bdd87371debb7f38aa6ff47133770ad3db26b800/requery-android-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

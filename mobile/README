@@ -1,0 +1,129 @@
+Imperative please see notes below: 
+
+Enable In-app Messaging:
+
+ANDROID : https://marketing.adobe.com/resources/help/en_US/mobile/android/messaging.html
+iOS     : https://marketing.adobe.com/resources/help/en_US/mobile/ios/messaging.html
+
+Enable Location Tracking:
+ 
+ANDROID : 
+https://marketing.adobe.com/resources/help/en_US/mobile/android/geo_poi.html 
+In AndroidManifest.xml add:
+
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+In the main screen where location is required: add
+
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import com.adobe.mobile.*;
+import com.telstra.tm.android.*;
+
+make sure the main screen class implements a LocationLlistener:
+public class MenuActivity extends Activity implements LocationListener {
+
+
+in the onResume  of above activity add:
+
+         @Override
+         protected void onResume() {
+                 super.onResume();
+                 /*
+                  * Adobe Tracking - Config
+                  *
+                  * call collectLifecycleData() to begin collecting lifecycle data
+                  * must be in the onResume() of every activity in your app
+                  */
+                 TMMobile.tmCollectLifecycleData(this);
+
+                // update current location
+                 getUserLocation();
+         }
+
+Add the getuserLocation function:
+
+         private void getUserLocation() {
+                 locationManager = (LocationManager)getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
+                 Criteria criteria = new Criteria();
+                 criteria.setAccuracy(Criteria.ACCURACY_FINE);
+                 List<String> providers = locationManager.getProviders(criteria, true);
+
+        if (providers == null || providers.size() == 0) {
+                          Toast.makeText(this, "Could not open GPS service", Toast.LENGTH_LONG).show();
+                 }
+                 else {
+            Criteria stuff = new Criteria();
+                          locationProvider = locationManager.getBestProvider(stuff, false);
+                          locationManager.requestLocationUpdates(locationProvider, 0, 0, this);
+            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
+                 }
+
+    }
+
+Implement LocationListener methods:
+
+         @Override
+         public void onLocationChanged(Location location) {
+                  /*
+                  * Adobe Tracking - Analytics
+                  *
+                  * trackLocation(...) call to get the location of the current user
+                  * because the config file has points of interest in it, the SDK will automatically determine
+                  * whether the user falls within a point of interest
+                  */
+                 Analytics.trackLocation(location, null);
+
+        // remove the updates because we only want to track the location once
+                 locationManager.removeUpdates(this);
+         }
+
+         @Override
+         public void onStatusChanged(String s, int i, Bundle bundle) {}
+
+         @Override
+         public void onProviderEnabled(String s) {
+                 Toast.makeText(this, "Location Provider Enabled", Toast.LENGTH_LONG).show();
+         }
+
+         @Override
+         public void onProviderDisabled(String s) {
+                 Toast.makeText(this, "Location Provider Disabled", Toast.LENGTH_LONG).show();
+         }
+
+
+
+
+iOS     : 
+:  https://marketing.adobe.com/resources/help/en_US/mobile/ios/geo_poi.html 
+1.	Add CoreLocation.framework to linked libraries in Build Phases 
+2.	Add one or both below keys to (app-name)info .plist file:
+* NSLocationAlwaysUsageDescription
+* NSLocationWhenInUseUsageDescription
+Above keys take a string as description of why your app need location services. You may enter a string like “To Find out your location”
+Note: iOS will not ask an user for permission to use their location until you have given a reason as why you are requesting it.
+3.	Make sure AppDelegate is implementing CLLocationManagerDelegate.
+4.	Add the following code to application: didFinishLaunchingWithOptions method:
+If ( [self.locationManager respondsToSelector:@selector (requestWhenInUseAuthorization)]) {
+            self.locationManager requestWhenInUseAuthorization];
+}   
+_locationManager startUpdatingLocation];
+5.	Add the following methods to AppDelegate:
+- (void) locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+                CLLocation *currentLocation = [locations lastObject];
+                if (currentLocation.horizontalAccuracy <= 100 && currentLocation.verticalAccuracy <= 100) {
+                                [_locationManager stopUpdatingLocation];
+                                [self trackCurrentLocation: currentLocation];
+                }
+}
+
+- (void) trackCurrentLocation:(CLLocation *)location {
+                static dispatch_once_t onceToken;
+                dispatch_once(&onceToken, ^{
+                                [ADBMobile trackLocation: location data: nil];
+                });
+}
+

@@ -1,0 +1,33 @@
+{
+    "version" : "1.0",
+    "analytics" : {
+        "rsids" : "telstrabpfoundationdev",
+        "server" : "info.telstra.com.au",
+        "charset" : "UTF-8",
+        "ssl" : false,
+		"offlineEnabled" : false,
+        "referrerTimeout" : 0,
+        "lifecycleTimeout" : 300,
+        "batchLimit" : 0,
+        "privacyDefault" : "optedin",
+		"poi" : []
+    },
+	"target" : {
+		"clientCode" : "",
+		"timeout" : 5
+	},
+	"audienceManager" : {
+		"server" : ""
+	},
+    "acquisition": {
+        "server": "c00.adobe.com",
+        "appid": "0e85410a-7c46-487a-a6d6-badd82acc949"
+    },
+    "remotes": {
+        "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-546aa3c33966360018c70000.json",
+        "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-546aa3c337333900188c0600.json"
+    },
+    "marketingCloud" :{
+        "org" : "98DC73AE52E13F1E0A490D4C@AdobeOrg"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "lastModified": "2018-04-20T12:00:41.556Z",
+  "target": {
+    "clientCode": "telstracorporationlt",
+    "timeout": 5
+  },
+  "marketingCloud": {
+    "org": "98DC73AE52E13F1E0A490D4C@AdobeOrg"
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "6807158f-9b09-4ae1-9dd0-27a7800135f0"
+  },
+  "audienceManager": {
+    "server": "telstra.demdex.net",
+    "analyticsForwardingEnabled": false,
+    "timeout": 5
+  },
+  "analytics": {
+    "rsids": "telstratdmobileappsiphprd",
+    "server": "infos.telstra.com.au",
+    "ssl": true,
+    "offlineEnabled": false,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "AEST",
+    "timezoneOffset": 660,
+    "referrerTimeout": 10,
+    "poi" : []
+  },
+  "messages": [],
+  "remotes": {
+    "messages": "https://www.telstra.com.au/content/dam/tcom/external/optimisation/inAppMessages/adobe-in-app-message.json"
+  }
+}

@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/5ee65dc4604ad5e74c10585790f1ca6b/play-services-ads-15.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/7a7b01fbf07f73ee9006eea93dc80902/play-services-gass-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a82227e10e747062f0d9c2653cc62e2a/play-services-ads-base-15.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e1e7749c7c277eac26f5a9c8c8f7d05c/play-services-ads-identifier-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.brightcove.player:offline-playback:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6555937cb5f9e6a89a99126e8e8496da/offline-playback-6.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/c68d5a34b9d60f23bbc70c20c73e2aeb/exoplayer-dash-2.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/50583aa8f77f73813c4cb1ac10da5947/exoplayer-hls-2.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a4ac8b653d422ed2ce3076197c173371/exoplayer-core-2.7.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:2:1-18:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/0809fa1ceeb9eb11b0fcba98f9cbd8da/rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
+MERGED from [io.requery:requery-android:1.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:11:5-67
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:12:5-79
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:7:5-89
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:7:22-86
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:12:5-82
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:12:22-79
+application
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:14:5-39:19
+MERGED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:12:5-16:19
+MERGED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:12:5-16:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/7a7b01fbf07f73ee9006eea93dc80902/play-services-gass-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/7a7b01fbf07f73ee9006eea93dc80902/play-services-gass-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a82227e10e747062f0d9c2653cc62e2a/play-services-ads-base-15.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a82227e10e747062f0d9c2653cc62e2a/play-services-ads-base-15.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e1e7749c7c277eac26f5a9c8c8f7d05c/play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e1e7749c7c277eac26f5a9c8c8f7d05c/play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:14:5-23:19
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:14:5-23:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:11:5-16:19
+MERGED from [io.requery:requery-android:1.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/AndroidManifest.xml:11:5-12:19
+MERGED from [io.requery:requery-android:1.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/AndroidManifest.xml:11:5-12:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:14:18-45
+	android:icon
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:14:46-75
+	android:theme
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:14:76-123
+activity#com.adobe.adbmobilesamples.MenuActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:16:9-21:20
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:16:75-111
+	android:label
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:16:47-74
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:16:19-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.adobe.adbmobilesamples.SimpleTrackingActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:22:9-97
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:22:58-94
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:22:19-57
+activity#com.adobe.adbmobilesamples.GalleryActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:23:9-90
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:23:51-87
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:23:19-50
+activity#com.adobe.adbmobilesamples.TimedActionsActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:24:9-95
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:24:56-92
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:24:19-55
+activity#com.adobe.adbmobilesamples.PrivacyActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:25:9-90
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:25:51-87
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:25:19-50
+activity#com.adobe.adbmobilesamples.MediaActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:26:9-88
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:26:49-85
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:26:19-48
+activity#com.adobe.adbmobilesamples.TargetingLocationActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:27:9-100
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:27:61-97
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:27:19-60
+activity#com.adobe.adbmobilesamples.LifetimeValueActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:28:9-96
+	android:screenOrientation
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:28:57-93
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:28:19-56
+activity#com.adobe.adbmobilesamples.VideoPlayerActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:29:9-57
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:29:19-54
+activity#com.adobe.mobile.MessageFullScreenActivity
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:31:9-139
+	android:theme
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:31:77-136
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:31:19-76
+receiver#com.adobe.mobile.MessageNotificationHandler
+ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:35:9-80
+	android:name
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml:35:19-77
+uses-sdk
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/5ee65dc4604ad5e74c10585790f1ca6b/play-services-ads-15.0.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/5ee65dc4604ad5e74c10585790f1ca6b/play-services-ads-15.0.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/7a7b01fbf07f73ee9006eea93dc80902/play-services-gass-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/7a7b01fbf07f73ee9006eea93dc80902/play-services-gass-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a82227e10e747062f0d9c2653cc62e2a/play-services-ads-base-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a82227e10e747062f0d9c2653cc62e2a/play-services-ads-base-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e1e7749c7c277eac26f5a9c8c8f7d05c/play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e1e7749c7c277eac26f5a9c8c8f7d05c/play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.brightcove.player:offline-playback:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6555937cb5f9e6a89a99126e8e8496da/offline-playback-6.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.brightcove.player:offline-playback:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6555937cb5f9e6a89a99126e8e8496da/offline-playback-6.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/c68d5a34b9d60f23bbc70c20c73e2aeb/exoplayer-dash-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/c68d5a34b9d60f23bbc70c20c73e2aeb/exoplayer-dash-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/50583aa8f77f73813c4cb1ac10da5947/exoplayer-hls-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/50583aa8f77f73813c4cb1ac10da5947/exoplayer-hls-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a4ac8b653d422ed2ce3076197c173371/exoplayer-core-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/a4ac8b653d422ed2ce3076197c173371/exoplayer-core-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/0809fa1ceeb9eb11b0fcba98f9cbd8da/rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/0809fa1ceeb9eb11b0fcba98f9cbd8da/rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.requery:requery-android:1.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.requery:requery-android:1.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/b7261827805dd3ad5023d500844c512f/requery-android-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/5ee65dc4604ad5e74c10585790f1ca6b/play-services-ads-15.0.0/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:10:22-78
+service#com.brightcove.player.network.DownloadMonitorService
+ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.brightcove.player:exoplayer2:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/6a101f1d34522025f73f9ab3a720c081/exoplayer2-6.4.0/AndroidManifest.xml:14:13-80
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9f83784eeafe2d776a50e825ed305ad1/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/835b00f0eaa3a4dded0721b4e7a325bd/support-fragment-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e60f63cc7ce4683a1fb220948dd8c54d/support-core-utils-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/54addbd48bc777bd7c2feb0c98546e12/support-core-ui-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/417b126164fe789b7a5a08824253be1c/customtabs-26.1.0/AndroidManifest.xml:24:13-51
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/9e0a28430a0a902ef8c8e0b8c574112e/play-services-ads-lite-15.0.0/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/cad054d2c9e8ad00d7a774c506d0d021/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+activity#com.brightcove.player.captioning.BrightcoveCaptionPropertiesActivity
+ADDED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:18:9-105
+	android:name
+		ADDED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:18:19-102
+service#com.brightcove.player.services.BrightcoveMediaPlayerService
+ADDED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:20:9-22:38
+	android:enabled
+		ADDED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:22:13-35
+	android:name
+		ADDED from [com.brightcove.player:android-sdk:6.4.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/AndroidManifest.xml:21:13-87
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.4] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/997fc30f2594e533cc9c5b9a7b02da75/library-1.7.4/AndroidManifest.xml:14:13-108
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/d0f6449185399ce77e6ff49656abaac3/runtime-1.0.0/AndroidManifest.xml:26:13-58

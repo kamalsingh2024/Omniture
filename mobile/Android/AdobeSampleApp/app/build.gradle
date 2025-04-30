@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.adobe.adbmobilesamples"
+        minSdkVersion 26
+        targetSdkVersion 26
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    maven {
+        url 'https://repo.brightcove.com/releases'
+    }
+}
+
+dependencies {
+    implementation files('libs/adobeMobileLibrary-4.14.0.jar')
+    implementation 'com.google.android.gms:play-services-ads:15.0.0'
+    implementation "com.brightcove.player:exoplayer2:6.4.0"
+    //implementation "com.brightcove.player:android-omniture-plugin:4.4+"
+
+}
+

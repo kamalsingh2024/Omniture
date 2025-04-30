@@ -1,0 +1,39 @@
+{
+  "lastModified": "2016-11-02T06:41:31.412Z",
+  "target": {
+    "clientCode": "",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "telstra.demdex.net",
+    "analyticsForwardingEnabled": true,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "8fcae15a650d9a375ca2fe34de3624777768398773ab1cb4618c0ba08c59de06"
+  },
+  "analytics": {
+    "rsids": "telstrabpltebprd",
+    "server": "infos.telstra.com.au",
+    "ssl": true,
+    "offlineEnabled": false,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "AEDT",
+    "timezoneOffset": 660,
+    "referrerTimeout": 5,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5819831b64746d492100d999.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5819831b64746d492700eb19.json"
+  },
+   "marketingCloud" :{
+      "org" : "98DC73AE52E13F1E0A490D4C@AdobeOrg"
+   }
+}

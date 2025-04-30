@@ -1,0 +1,810 @@
+[
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_scrubber_track.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_scrubber_track.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_on_focused_text_selector.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_on_focused_text_selector.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_rewind.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_fiftyoff.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xhdpi/fiftyoff.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_shuffle.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_shuffle.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_video_player.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/video_player.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_default_media_controller.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/default_media_controller.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_repeat_off.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_fullscreen_exit.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_repeat_all.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_fullscreen_enter.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_fastforward.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_simple_tracking.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/simple_tracking.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_next.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_rewind.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_fastforward.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_bogo.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xhdpi/bogo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/raw_video_fragment_shader.glsl.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/raw/video_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_tv_player_options.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/tv_player_options.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_lifetime_value_example.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/lifetime_value_example.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_tv_player_options_item.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/tv_player_options_item.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_repeat_one.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-ldpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxxhdpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_fullscreen_exit.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/xml_brightcove_captioning_settings.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/xml/brightcove_captioning_settings.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xhdpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_preference_color.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/preference_color.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_video_still.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_video_still.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_repeat_one.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_background.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xxhdpi/background.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_scrubber_secondary.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_scrubber_secondary.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_scrubber.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/scrubber.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_scrubber_primary.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_scrubber_primary.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_timed_actions.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/timed_actions.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_live_indicator.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_live_indicator.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_film.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-anydpi-v21/ic_film.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_previous.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_previous.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_option_item_text.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_option_item_text.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi_background.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-mdpi/background.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_transparency.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-mdpi-v4/transparency.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_shuffle.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_shuffle.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_pause.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_on_focused_shape.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_on_focused_shape.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_fastforward.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxxhdpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_repeat_all.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_next.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_fastforward.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-nodpi-v4_caption_background.jpg.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-nodpi-v4/caption_background.jpg"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bogo.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xxhdpi/bogo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-hdpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_fullscreen_exit.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_scrubber_thumb.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_scrubber_thumb.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_previous.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_play.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_repeat_all.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_media_example.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/media_example.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_fullscreen_exit.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_fiftyoff.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xxhdpi/fiftyoff.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_repeat_off.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_default_scrubber_progress_horizontal.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/default_scrubber_progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_fullscreen_enter.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-ldpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_repeat_off.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_pause.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_option_radiobutton_unchecked.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_option_radiobutton_unchecked.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_repeat_all.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_pause.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_pause.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_gallery.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/gallery.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_transparency.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-hdpi-v4/transparency.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-mdpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/raw_video_vertex_shader.glsl.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/raw/video_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_preset_picker_item.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/preset_picker_item.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_next.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_option_item_bg.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_option_item_bg.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_repeat_all.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_pause.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_play.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi_bogo.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-mdpi/bogo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_fastforward.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_exo_simple_player_view.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/layout/exo_simple_player_view.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_next.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-hdpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_pause_24dp.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-anydpi-v21/ic_pause_24dp.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi_fiftyoff.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-mdpi/fiftyoff.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_rewind.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_play.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_play.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_tv_media_controller.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/tv_media_controller.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_exo_playback_control_view.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/layout/exo_playback_control_view.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_exo_player_view.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/layout/exo_player_view.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-mdpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_repeat_one.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_repeat_one.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_fullscreen_exit.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_fullscreen_exit.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_on_focused_selector.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_on_focused_selector.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_option_item_button.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_option_item_button.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_shuffle.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_shuffle.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_edit_mode_logo.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_repeat_off.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_fullscreen_enter.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_pip_media_controller.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/pip_media_controller.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_grid_picker_dialog.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/grid_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_transparency.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xhdpi-v4/transparency.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_fullscreen_enter.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_fullscreen_enter.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_fullscreen_exit.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_fullscreen_exit.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_privacy_example.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/privacy_example.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_fastforward.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_repeat_off.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxhdpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-hdpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_pause.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_previous.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_color_picker_item.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/color_picker_item.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_play.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_rewind.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xhdpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxhdpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_rewind.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xhdpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_transparency_tileable.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/transparency_tileable.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi_background.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_repeat_all.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_repeat_all.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_repeat_off.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_repeat_off.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout-w480dp-v13_default_media_controller.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout-w480dp-v13/default_media_controller.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xhdpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_player_option_item.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/player_option_item.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_targeting_location.xml.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/layout/targeting_location.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_edit_mode_logo.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_repeat_one.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_shuffle.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_shuffle.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_previous.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_previous.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_previous.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_player_option_radiobutton_checked.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable/player_option_radiobutton_checked.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi_bogo.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-hdpi/bogo.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_play.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_exo_player_control_view.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/layout/exo_player_control_view.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_rewind.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_play_arrow_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-mdpi-v4/ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_play_arrow_24dp.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-anydpi-v21/ic_play_arrow_24dp.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_background.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-xhdpi/background.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_fullscreen_enter.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_shuffle.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_shuffle.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_caption_prefs_activity.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/caption_prefs_activity.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-ldpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_transparency.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxhdpi-v4/transparency.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_shuffle.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_shuffle.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_pause.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_exo_controls_next.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-anydpi-v21/exo_controls_next.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi_fiftyoff.png.flat",
+        "source": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/src/main/res/drawable-hdpi/fiftyoff.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_exo_controls_repeat_one.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-hdpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_film.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxhdpi-v4/ic_film.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_exo_controls_next.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-xxhdpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_pause_24dp.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/drawable-xxxhdpi-v4/ic_pause_24dp.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/40a3342781d7a4b08caa38af177e1b14/support-compat-26.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_captioning_preview.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/1f7bddf64e9aaa7be6ee83d768175672/android-sdk-6.4.0/res/layout/captioning_preview.xml"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_repeat_one.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4_exo_controls_fullscreen_enter.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-ldpi-v4/exo_controls_fullscreen_enter.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_exo_controls_play.png.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/e017f50fd657476fc02b1976bb26b21b/exoplayer-ui-2.7.0/res/drawable-mdpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/Users/kamalsingh/omniture/mobile/Android/AdobeSampleApp/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/Users/kamalsingh/.gradle/caches/transforms-2/files-2.1/76255774f047056d070aaccfb1365509/support-media-compat-26.1.0/res/layout/notification_template_big_media_narrow.xml"
+    }
+]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adobe.adbmobilesamples"
+    android:targetSandboxVersion="2" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- Offline DRM related permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="SDK Samples"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.adobe.adbmobilesamples.MenuActivity"
+            android:label="SDK Samples"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adobe.adbmobilesamples.SimpleTrackingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.TimedActionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.PrivacyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.MediaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.TargetingLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.adobe.adbmobilesamples.LifetimeValueActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.adobe.adbmobilesamples.VideoPlayerActivity" />
+        <activity
+            android:name="com.adobe.mobile.MessageFullScreenActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
+
+        <service
+            android:name="com.brightcove.player.network.DownloadMonitorService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- If we don't register this Activity in the Manifest, apps using the SDK will crash when they try to access it. -->
+        <!-- During the app's build process, this manifest will be merged with the app-level one. -->
+        <activity android:name="com.brightcove.player.captioning.BrightcoveCaptionPropertiesActivity" />
+
+        <service
+            android:name="com.brightcove.player.services.BrightcoveMediaPlayerService"
+            android:enabled="true" />
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+            android:process=":filedownloader" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

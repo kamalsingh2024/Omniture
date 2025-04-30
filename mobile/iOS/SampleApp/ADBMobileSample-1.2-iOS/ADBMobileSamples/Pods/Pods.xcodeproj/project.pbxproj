@@ -1,0 +1,1311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1F56072BF7A9F23861E79E4F98F5B75A /* Brightcove-Player-Omniture-framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 70D5E26B7FD325E317DD29138A77BE91 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Omniture-framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+				77B0021D661BC0B2B518982A45778FB8 /* PBXTargetDependency */,
+			);
+			name = "Brightcove-Player-Omniture-framework";
+		};
+		616EB70CB51A1DEC76B441130B8ED6AE /* Brightcove-Player-Core-library */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4F1D435D8A13093EA956073B8A14F5A9 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core-library" */;
+			buildPhases = (
+			);
+			dependencies = (
+				BFBB4CACA4ADDED5FBFD01F522758EC4 /* PBXTargetDependency */,
+			);
+			name = "Brightcove-Player-Core-library";
+		};
+		879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E26F180FA7C9FA44E551C294A83198C0 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core-framework" */;
+			buildPhases = (
+			);
+			dependencies = (
+				836E42622CC27196C1ADE2777CCFA6E3 /* PBXTargetDependency */,
+			);
+			name = "Brightcove-Player-Core-framework";
+		};
+		8E0FCA243614FF494F00F3E3D6E0EF0D /* Brightcove-Player-Omniture-library */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73C81754B6F12BA22828F6AC8D469EB2 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Omniture-library" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B8CF7083C78642E4561158F6A1E55E26 /* PBXTargetDependency */,
+			);
+			name = "Brightcove-Player-Omniture-library";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C35A8A41B7FF56078D69445E836535 /* Pods-ADBMobileSamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C9155EB105E8CFED4DD617F2960EDC /* Pods-ADBMobileSamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECBA7AF5E70597A17FB492800390B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1B689BBCF8EAAAE3B775AF25E4C4E0C8 /* Pods-ADBMobileSamples - Bloodhound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ADE89466A525AF7A4F9390861BB41 /* Pods-ADBMobileSamples - Bloodhound-dummy.m */; };
+		23F414064A9FE8B6646EE17030908A74 /* Pods-ADBMobileSamples - Bloodhound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41E23EAA04D1BD0E49DD1336BAC3BC3 /* Pods-ADBMobileSamples - Bloodhound-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFF1ECB54263E6CAF2B5E9F8D3802BB /* bcovpuiiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 143A0F5C34394D4D898EDB241DD946E4 /* bcovpuiiconfont.ttf */; };
+		ACD7629AE7858EC0AB731C2D3BEE8D75 /* Pods-ADBMobileSamples - Dev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAAEAF8C672EE1D4F9F9ED4D2F43593 /* Pods-ADBMobileSamples - Dev-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11ABA21B1782C204F201CBBC9288CAE /* Pods-ADBMobileSamples - Dev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB824A6DB05AAA6957C3567DC327B7 /* Pods-ADBMobileSamples - Dev-dummy.m */; };
+		D30CC3EABB3DF492ABA8385598D179BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D82277A9709040E163209210CD371082 /* bcovpuiiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 143A0F5C34394D4D898EDB241DD946E4 /* bcovpuiiconfont.ttf */; };
+		DC3CA6C684D9A85A800316F7EFCF0EBD /* Pods-ADBMobileSamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942EDEBA41E36C8EE38296D4057D5D31 /* Pods-ADBMobileSamples-dummy.m */; };
+		ED8B423D10327F28E9D0B61CDDA1E866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E52EA54FAE701BB09F12AE373F2D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879C7600C627EF5610393067A8E4434A;
+			remoteInfo = "Brightcove-Player-Core-framework";
+		};
+		0472DC9EB04BFF9F5E9B326ADCF300BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CB11D82F702C2F424EE01C92266731;
+			remoteInfo = "Brightcove-Player-Core-framework-BCOVPUIResources";
+		};
+		104F1578671FAEEF08FCAF188A3DBE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616EB70CB51A1DEC76B441130B8ED6AE;
+			remoteInfo = "Brightcove-Player-Core-library";
+		};
+		15D42A4F9EE38EC382361042A81A1FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879C7600C627EF5610393067A8E4434A;
+			remoteInfo = "Brightcove-Player-Core-framework";
+		};
+		200E063C8AE38B9B4B6A7F3531D1ED85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879C7600C627EF5610393067A8E4434A;
+			remoteInfo = "Brightcove-Player-Core-framework";
+		};
+		24C27E74F38E3C0683873C59053842B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F56072BF7A9F23861E79E4F98F5B75A;
+			remoteInfo = "Brightcove-Player-Omniture-framework";
+		};
+		7E187C089531FB90B08556314DB7E29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879C7600C627EF5610393067A8E4434A;
+			remoteInfo = "Brightcove-Player-Core-framework";
+		};
+		D76FDC22196ECBCF1A8F6C163DAEB1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F56072BF7A9F23861E79E4F98F5B75A;
+			remoteInfo = "Brightcove-Player-Omniture-framework";
+		};
+		FAD4DB0A8A05E3C9255F5CBC2DA3E737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F56072BF7A9F23861E79E4F98F5B75A;
+			remoteInfo = "Brightcove-Player-Omniture-framework";
+		};
+		FE81080FA93FB45F39C9405C744BBD01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEED93A992C56DD316904F5B9FB4023;
+			remoteInfo = "Brightcove-Player-Core-library-BCOVPUIResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0043911FD99FF8297B52FFEA858B8A8C /* Brightcove-Player-Omniture-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Brightcove-Player-Omniture-library.xcconfig"; path = "../Brightcove-Player-Omniture-library/Brightcove-Player-Omniture-library.xcconfig"; sourceTree = "<group>"; };
+		078ECDEEEBBE4654234B73E868EAEE9B /* Pods-ADBMobileSamples - Bloodhound-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples - Bloodhound-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D914DD0E1706BC1F8272C8503253763 /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightcovePlayerSDK.framework; path = ios/static/BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+		143A0F5C34394D4D898EDB241DD946E4 /* bcovpuiiconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = bcovpuiiconfont.ttf; path = ios/static/BrightcovePlayerSDK.framework/bcovpuiiconfont.ttf; sourceTree = "<group>"; };
+		1E78E729EF43CDAEF3B07330BA0A0E67 /* Pods_ADBMobileSamples___Bloodhound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADBMobileSamples___Bloodhound.framework; path = "Pods-ADBMobileSamples - Bloodhound.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C4E43160E954A2005EA2D755824E6D /* Pods-ADBMobileSamples - Bloodhound-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADBMobileSamples - Bloodhound-resources.sh"; sourceTree = "<group>"; };
+		2E483B91DE590173689CD5A6F91DCFA7 /* Pods-ADBMobileSamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples-Info.plist"; sourceTree = "<group>"; };
+		3108B9D2E2BB0EA41B1232B5D726D56A /* BCOVPUIResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BCOVPUIResources.bundle; path = "Brightcove-Player-Core-framework-BCOVPUIResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37E3DC8D74DFB752B4CD133F7D93B431 /* Pods-ADBMobileSamples - Dev-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples - Dev-Info.plist"; sourceTree = "<group>"; };
+		3E8DD9DC85B7B47BA3A268BC60E16913 /* Pods-ADBMobileSamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		456FD8763A82F465D20002BB694BBE21 /* Pods-ADBMobileSamples - Bloodhound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADBMobileSamples - Bloodhound.modulemap"; sourceTree = "<group>"; };
+		495B3A75A37085663CB48892CA2ADBE4 /* Pods-ADBMobileSamples - Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples - Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		49CBC10CCB37B038611EB9846D9E4341 /* Pods_ADBMobileSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADBMobileSamples.framework; path = "Pods-ADBMobileSamples.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF8354E69DAD39613579ED7BB1E077C /* Pods-ADBMobileSamples - Bloodhound-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADBMobileSamples - Bloodhound-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50B04F8FF1A43D82355CB3775C63BFCC /* Pods-ADBMobileSamples - Dev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADBMobileSamples - Dev-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55BA9344E84EEB9E55748886D309A8A1 /* Pods-ADBMobileSamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADBMobileSamples.modulemap"; sourceTree = "<group>"; };
+		5C0D3476FE604193B71F97148A9CF388 /* Pods-ADBMobileSamples - Dev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADBMobileSamples - Dev.modulemap"; sourceTree = "<group>"; };
+		5EC4523403F50C2974BA5B5F8FC1141B /* Pods-ADBMobileSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples.release.xcconfig"; sourceTree = "<group>"; };
+		61C9155EB105E8CFED4DD617F2960EDC /* Pods-ADBMobileSamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADBMobileSamples-umbrella.h"; sourceTree = "<group>"; };
+		8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Brightcove-Player-Core-framework.xcconfig"; sourceTree = "<group>"; };
+		8840D8A56CDC604F7440646F2E08DD79 /* Pods-ADBMobileSamples-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADBMobileSamples-resources.sh"; sourceTree = "<group>"; };
+		8D1ADE89466A525AF7A4F9390861BB41 /* Pods-ADBMobileSamples - Bloodhound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADBMobileSamples - Bloodhound-dummy.m"; sourceTree = "<group>"; };
+		9135B02829042D615CCD53ABBE0A4DA3 /* Pods-ADBMobileSamples - Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples - Dev.release.xcconfig"; sourceTree = "<group>"; };
+		924809FED3E6ECB16D5347B4A21D047F /* Pods-ADBMobileSamples - Bloodhound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples - Bloodhound.release.xcconfig"; sourceTree = "<group>"; };
+		942EDEBA41E36C8EE38296D4057D5D31 /* Pods-ADBMobileSamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADBMobileSamples-dummy.m"; sourceTree = "<group>"; };
+		946C8BC099114368A2711C67220C09C2 /* BCOVPUIResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BCOVPUIResources.bundle; path = "Brightcove-Player-Core-library-BCOVPUIResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAAEAF8C672EE1D4F9F9ED4D2F43593 /* Pods-ADBMobileSamples - Dev-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADBMobileSamples - Dev-umbrella.h"; sourceTree = "<group>"; };
+		9CBB824A6DB05AAA6957C3567DC327B7 /* Pods-ADBMobileSamples - Dev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADBMobileSamples - Dev-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C0CE808B2DA38F607440115797C04E /* Pods-ADBMobileSamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADBMobileSamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B884EBA3613429E9D6E59CC51D7963B4 /* Pods-ADBMobileSamples - Dev-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADBMobileSamples - Dev-resources.sh"; sourceTree = "<group>"; };
+		C41E23EAA04D1BD0E49DD1336BAC3BC3 /* Pods-ADBMobileSamples - Bloodhound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADBMobileSamples - Bloodhound-umbrella.h"; sourceTree = "<group>"; };
+		C55044273E6CE52C1F7C5A6E96CCD639 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-framework-Info.plist"; sourceTree = "<group>"; };
+		CF8B1CD5AA38B07E82B8C98F87BA6803 /* Pods-ADBMobileSamples - Bloodhound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples - Bloodhound.debug.xcconfig"; sourceTree = "<group>"; };
+		D821E88DDCD257BA01F7CA5E06D214FC /* Pods_ADBMobileSamples___Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADBMobileSamples___Dev.framework; path = "Pods-ADBMobileSamples - Dev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D90E54E961F24FFF2904434F69CE65 /* Pods-ADBMobileSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADBMobileSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		E9762FC0A02B24054425A64612FBF91A /* Pods-ADBMobileSamples - Dev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples - Dev-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF2A20D48950C084431B1EF505492958 /* Brightcove-Player-Omniture-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Brightcove-Player-Omniture-framework.xcconfig"; sourceTree = "<group>"; };
+		F09870D618198B4AAD63F6777F3BC000 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist"; path = "../Brightcove-Player-Core-library/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist"; sourceTree = "<group>"; };
+		F27D3E0B9233A52231B07FF3907142DA /* BrightcoveAMC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightcoveAMC.framework; path = ios/BrightcoveAMC.framework; sourceTree = "<group>"; };
+		F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Brightcove-Player-Core-library.xcconfig"; path = "../Brightcove-Player-Core-library/Brightcove-Player-Core-library.xcconfig"; sourceTree = "<group>"; };
+		FB96EE42C91F0C355A976AE5EF796D48 /* Pods-ADBMobileSamples - Bloodhound-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADBMobileSamples - Bloodhound-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8E3EC97BE68A272B4B03007866736E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30CC3EABB3DF492ABA8385598D179BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2300526C0C612B8250A0FB0250D9B1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8B423D10327F28E9D0B61CDDA1E866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB42113B0FA04C88804D35E00ACC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32422BC58C94474ECBEB6076BA6CDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75008700C71C7BA8F4FB589996A599F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECBA7AF5E70597A17FB492800390B12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123DD691F621200AF772755CE03687F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4840169F33CBB19BB43992C3FCB69 /* Pods-ADBMobileSamples */,
+				DBD6EAC2055E6002E33F12E2C8BBF899 /* Pods-ADBMobileSamples - Bloodhound */,
+				E6E97DAB01DAFB4F5C9BAE37AEDA0EAD /* Pods-ADBMobileSamples - Dev */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		27680125C47BE5D7A799979D915DC98B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27D3E0B9233A52231B07FF3907142DA /* BrightcoveAMC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C178CD981D0CBFBCC89FD6CEB652834 /* Brightcove-Player-Core */ = {
+			isa = PBXGroup;
+			children = (
+				8E26C4757EBDEE2E7328D47545B83C45 /* default */,
+				E0AA06182328C73FC67ECC05A0A05DB3 /* Support Files */,
+			);
+			name = "Brightcove-Player-Core";
+			path = "Brightcove-Player-Core";
+			sourceTree = "<group>";
+		};
+		2E6819A8FC51B7F8A26F2CBAD978766D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3108B9D2E2BB0EA41B1232B5D726D56A /* BCOVPUIResources.bundle */,
+				946C8BC099114368A2711C67220C09C2 /* BCOVPUIResources.bundle */,
+				49CBC10CCB37B038611EB9846D9E4341 /* Pods_ADBMobileSamples.framework */,
+				1E78E729EF43CDAEF3B07330BA0A0E67 /* Pods_ADBMobileSamples___Bloodhound.framework */,
+				D821E88DDCD257BA01F7CA5E06D214FC /* Pods_ADBMobileSamples___Dev.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30476AC80B0A323DF9F54DE4BF1D3902 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				143A0F5C34394D4D898EDB241DD946E4 /* bcovpuiiconfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A7CFE50714A40300583A8F35D2E4340 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A20D48950C084431B1EF505492958 /* Brightcove-Player-Omniture-framework.xcconfig */,
+				0043911FD99FF8297B52FFEA858B8A8C /* Brightcove-Player-Omniture-library.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Brightcove-Player-Omniture-framework";
+			sourceTree = "<group>";
+		};
+		8E26C4757EBDEE2E7328D47545B83C45 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				9793DBA86A832F043EE72C5262B3A5EA /* Frameworks */,
+				30476AC80B0A323DF9F54DE4BF1D3902 /* Resources */,
+			);
+			name = default;
+			sourceTree = "<group>";
+		};
+		8FC0DBED63137DE0602997433F406315 /* Brightcove-Player-Omniture */ = {
+			isa = PBXGroup;
+			children = (
+				27680125C47BE5D7A799979D915DC98B /* Frameworks */,
+				5A7CFE50714A40300583A8F35D2E4340 /* Support Files */,
+			);
+			name = "Brightcove-Player-Omniture";
+			path = "Brightcove-Player-Omniture";
+			sourceTree = "<group>";
+		};
+		9793DBA86A832F043EE72C5262B3A5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D914DD0E1706BC1F8272C8503253763 /* BrightcovePlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EEA5AC60B326EFAE806DC1AC6D40B485 /* Pods */,
+				2E6819A8FC51B7F8A26F2CBAD978766D /* Products */,
+				123DD691F621200AF772755CE03687F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D4840169F33CBB19BB43992C3FCB69 /* Pods-ADBMobileSamples */ = {
+			isa = PBXGroup;
+			children = (
+				55BA9344E84EEB9E55748886D309A8A1 /* Pods-ADBMobileSamples.modulemap */,
+				A0C0CE808B2DA38F607440115797C04E /* Pods-ADBMobileSamples-acknowledgements.markdown */,
+				3E8DD9DC85B7B47BA3A268BC60E16913 /* Pods-ADBMobileSamples-acknowledgements.plist */,
+				942EDEBA41E36C8EE38296D4057D5D31 /* Pods-ADBMobileSamples-dummy.m */,
+				2E483B91DE590173689CD5A6F91DCFA7 /* Pods-ADBMobileSamples-Info.plist */,
+				8840D8A56CDC604F7440646F2E08DD79 /* Pods-ADBMobileSamples-resources.sh */,
+				61C9155EB105E8CFED4DD617F2960EDC /* Pods-ADBMobileSamples-umbrella.h */,
+				E2D90E54E961F24FFF2904434F69CE65 /* Pods-ADBMobileSamples.debug.xcconfig */,
+				5EC4523403F50C2974BA5B5F8FC1141B /* Pods-ADBMobileSamples.release.xcconfig */,
+			);
+			name = "Pods-ADBMobileSamples";
+			path = "Target Support Files/Pods-ADBMobileSamples";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD6EAC2055E6002E33F12E2C8BBF899 /* Pods-ADBMobileSamples - Bloodhound */ = {
+			isa = PBXGroup;
+			children = (
+				456FD8763A82F465D20002BB694BBE21 /* Pods-ADBMobileSamples - Bloodhound.modulemap */,
+				4AF8354E69DAD39613579ED7BB1E077C /* Pods-ADBMobileSamples - Bloodhound-acknowledgements.markdown */,
+				078ECDEEEBBE4654234B73E868EAEE9B /* Pods-ADBMobileSamples - Bloodhound-acknowledgements.plist */,
+				8D1ADE89466A525AF7A4F9390861BB41 /* Pods-ADBMobileSamples - Bloodhound-dummy.m */,
+				FB96EE42C91F0C355A976AE5EF796D48 /* Pods-ADBMobileSamples - Bloodhound-Info.plist */,
+				20C4E43160E954A2005EA2D755824E6D /* Pods-ADBMobileSamples - Bloodhound-resources.sh */,
+				C41E23EAA04D1BD0E49DD1336BAC3BC3 /* Pods-ADBMobileSamples - Bloodhound-umbrella.h */,
+				CF8B1CD5AA38B07E82B8C98F87BA6803 /* Pods-ADBMobileSamples - Bloodhound.debug.xcconfig */,
+				924809FED3E6ECB16D5347B4A21D047F /* Pods-ADBMobileSamples - Bloodhound.release.xcconfig */,
+			);
+			name = "Pods-ADBMobileSamples - Bloodhound";
+			path = "Target Support Files/Pods-ADBMobileSamples - Bloodhound";
+			sourceTree = "<group>";
+		};
+		E0AA06182328C73FC67ECC05A0A05DB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */,
+				F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */,
+				C55044273E6CE52C1F7C5A6E96CCD639 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-framework-Info.plist */,
+				F09870D618198B4AAD63F6777F3BC000 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Brightcove-Player-Core-framework";
+			sourceTree = "<group>";
+		};
+		E6E97DAB01DAFB4F5C9BAE37AEDA0EAD /* Pods-ADBMobileSamples - Dev */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D3476FE604193B71F97148A9CF388 /* Pods-ADBMobileSamples - Dev.modulemap */,
+				50B04F8FF1A43D82355CB3775C63BFCC /* Pods-ADBMobileSamples - Dev-acknowledgements.markdown */,
+				E9762FC0A02B24054425A64612FBF91A /* Pods-ADBMobileSamples - Dev-acknowledgements.plist */,
+				9CBB824A6DB05AAA6957C3567DC327B7 /* Pods-ADBMobileSamples - Dev-dummy.m */,
+				37E3DC8D74DFB752B4CD133F7D93B431 /* Pods-ADBMobileSamples - Dev-Info.plist */,
+				B884EBA3613429E9D6E59CC51D7963B4 /* Pods-ADBMobileSamples - Dev-resources.sh */,
+				9AAAEAF8C672EE1D4F9F9ED4D2F43593 /* Pods-ADBMobileSamples - Dev-umbrella.h */,
+				495B3A75A37085663CB48892CA2ADBE4 /* Pods-ADBMobileSamples - Dev.debug.xcconfig */,
+				9135B02829042D615CCD53ABBE0A4DA3 /* Pods-ADBMobileSamples - Dev.release.xcconfig */,
+			);
+			name = "Pods-ADBMobileSamples - Dev";
+			path = "Target Support Files/Pods-ADBMobileSamples - Dev";
+			sourceTree = "<group>";
+		};
+		EEA5AC60B326EFAE806DC1AC6D40B485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C178CD981D0CBFBCC89FD6CEB652834 /* Brightcove-Player-Core */,
+				8FC0DBED63137DE0602997433F406315 /* Brightcove-Player-Omniture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7DF92DBAE46D7B6236B62FDF33F20C25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F414064A9FE8B6646EE17030908A74 /* Pods-ADBMobileSamples - Bloodhound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1B83A31B3E23DB3999CD2E91F64865 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C35A8A41B7FF56078D69445E836535 /* Pods-ADBMobileSamples-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E2850D5FFC203F01E6C3062DB6D611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD7629AE7858EC0AB731C2D3BEE8D75 /* Pods-ADBMobileSamples - Dev-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27CB11D82F702C2F424EE01C92266731 /* Brightcove-Player-Core-framework-BCOVPUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B69C69472EE3D0D1199F63A455C823B /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-framework-BCOVPUIResources" */;
+			buildPhases = (
+				E642CFB8131528415DD28B47999A50D0 /* Sources */,
+				B32422BC58C94474ECBEB6076BA6CDB4 /* Frameworks */,
+				72DD4774D059D1A519529B93D62581E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brightcove-Player-Core-framework-BCOVPUIResources";
+			productName = "Brightcove-Player-Core-framework-BCOVPUIResources";
+			productReference = 3108B9D2E2BB0EA41B1232B5D726D56A /* BCOVPUIResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7003D1034876241EA5A61E8162D01D4D /* Pods-ADBMobileSamples - Bloodhound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BCB34E878731F912EAFCABEF22CD5F /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples - Bloodhound" */;
+			buildPhases = (
+				7DF92DBAE46D7B6236B62FDF33F20C25 /* Headers */,
+				A024961E55F329AD539A0BE1AC24BFC5 /* Sources */,
+				2300526C0C612B8250A0FB0250D9B1B5 /* Frameworks */,
+				FF056729B27FBC6CC0A39B9D8A7DE041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FE0A37176DD3C3DD7853234D153FC3 /* PBXTargetDependency */,
+				02851D10FCBADEE29A2172DEFAED2138 /* PBXTargetDependency */,
+			);
+			name = "Pods-ADBMobileSamples - Bloodhound";
+			productName = "Pods-ADBMobileSamples - Bloodhound";
+			productReference = 1E78E729EF43CDAEF3B07330BA0A0E67 /* Pods_ADBMobileSamples___Bloodhound.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BEED93A992C56DD316904F5B9FB4023 /* Brightcove-Player-Core-library-BCOVPUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9109D80375DB8E67959908ED2A2FF96 /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-library-BCOVPUIResources" */;
+			buildPhases = (
+				8137EEA2ECC3348607A015336C17036E /* Sources */,
+				86AB42113B0FA04C88804D35E00ACC76 /* Frameworks */,
+				E3B7799E29BE7C2DADDD1E01A5978376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brightcove-Player-Core-library-BCOVPUIResources";
+			productName = "Brightcove-Player-Core-library-BCOVPUIResources";
+			productReference = 946C8BC099114368A2711C67220C09C2 /* BCOVPUIResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F810157CEAD62B9051DB0C55D5112F9 /* Pods-ADBMobileSamples - Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4743FE72940658070DF907BC14D72649 /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples - Dev" */;
+			buildPhases = (
+				B5E2850D5FFC203F01E6C3062DB6D611 /* Headers */,
+				4AF8473C85965380C132DDCCA6FA567B /* Sources */,
+				C75008700C71C7BA8F4FB589996A599F /* Frameworks */,
+				A78EEAF48EF298A4BBDDB2BBF82AA8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C812A6DA4D1D83483827B64C210A01 /* PBXTargetDependency */,
+				440CFEDA8DA3BACACE750B173FD4C80A /* PBXTargetDependency */,
+			);
+			name = "Pods-ADBMobileSamples - Dev";
+			productName = "Pods-ADBMobileSamples - Dev";
+			productReference = D821E88DDCD257BA01F7CA5E06D214FC /* Pods_ADBMobileSamples___Dev.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA374DB2CAD1A12C8D576D5100DAAC91 /* Pods-ADBMobileSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354BFB65B829B15EF5A19919ACBFCBBA /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples" */;
+			buildPhases = (
+				9F1B83A31B3E23DB3999CD2E91F64865 /* Headers */,
+				22472366CAE4189A35DFDB609349AFA7 /* Sources */,
+				1E8E3EC97BE68A272B4B03007866736E /* Frameworks */,
+				453D306F2D6451EAB055550186548C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA27166A816E683FFFCAF167B34BC60 /* PBXTargetDependency */,
+				E02FCA0D0AE998AD7FAB570CF0E73E8A /* PBXTargetDependency */,
+			);
+			name = "Pods-ADBMobileSamples";
+			productName = "Pods-ADBMobileSamples";
+			productReference = 49CBC10CCB37B038611EB9846D9E4341 /* Pods_ADBMobileSamples.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E6819A8FC51B7F8A26F2CBAD978766D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */,
+				27CB11D82F702C2F424EE01C92266731 /* Brightcove-Player-Core-framework-BCOVPUIResources */,
+				616EB70CB51A1DEC76B441130B8ED6AE /* Brightcove-Player-Core-library */,
+				7BEED93A992C56DD316904F5B9FB4023 /* Brightcove-Player-Core-library-BCOVPUIResources */,
+				1F56072BF7A9F23861E79E4F98F5B75A /* Brightcove-Player-Omniture-framework */,
+				8E0FCA243614FF494F00F3E3D6E0EF0D /* Brightcove-Player-Omniture-library */,
+				BA374DB2CAD1A12C8D576D5100DAAC91 /* Pods-ADBMobileSamples */,
+				7003D1034876241EA5A61E8162D01D4D /* Pods-ADBMobileSamples - Bloodhound */,
+				7F810157CEAD62B9051DB0C55D5112F9 /* Pods-ADBMobileSamples - Dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453D306F2D6451EAB055550186548C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD4774D059D1A519529B93D62581E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF1ECB54263E6CAF2B5E9F8D3802BB /* bcovpuiiconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78EEAF48EF298A4BBDDB2BBF82AA8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B7799E29BE7C2DADDD1E01A5978376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82277A9709040E163209210CD371082 /* bcovpuiiconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF056729B27FBC6CC0A39B9D8A7DE041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22472366CAE4189A35DFDB609349AFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3CA6C684D9A85A800316F7EFCF0EBD /* Pods-ADBMobileSamples-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8473C85965380C132DDCCA6FA567B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11ABA21B1782C204F201CBBC9288CAE /* Pods-ADBMobileSamples - Dev-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8137EEA2ECC3348607A015336C17036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A024961E55F329AD539A0BE1AC24BFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B689BBCF8EAAAE3B775AF25E4C4E0C8 /* Pods-ADBMobileSamples - Bloodhound-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E642CFB8131528415DD28B47999A50D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02851D10FCBADEE29A2172DEFAED2138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Omniture-framework";
+			target = 1F56072BF7A9F23861E79E4F98F5B75A /* Brightcove-Player-Omniture-framework */;
+			targetProxy = 24C27E74F38E3C0683873C59053842B2 /* PBXContainerItemProxy */;
+		};
+		09FE0A37176DD3C3DD7853234D153FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-framework";
+			target = 879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */;
+			targetProxy = 15D42A4F9EE38EC382361042A81A1FCF /* PBXContainerItemProxy */;
+		};
+		440CFEDA8DA3BACACE750B173FD4C80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Omniture-framework";
+			target = 1F56072BF7A9F23861E79E4F98F5B75A /* Brightcove-Player-Omniture-framework */;
+			targetProxy = FAD4DB0A8A05E3C9255F5CBC2DA3E737 /* PBXContainerItemProxy */;
+		};
+		48C812A6DA4D1D83483827B64C210A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-framework";
+			target = 879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */;
+			targetProxy = 200E063C8AE38B9B4B6A7F3531D1ED85 /* PBXContainerItemProxy */;
+		};
+		77B0021D661BC0B2B518982A45778FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-framework";
+			target = 879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */;
+			targetProxy = 00E52EA54FAE701BB09F12AE373F2D11 /* PBXContainerItemProxy */;
+		};
+		836E42622CC27196C1ADE2777CCFA6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-framework-BCOVPUIResources";
+			target = 27CB11D82F702C2F424EE01C92266731 /* Brightcove-Player-Core-framework-BCOVPUIResources */;
+			targetProxy = 0472DC9EB04BFF9F5E9B326ADCF300BE /* PBXContainerItemProxy */;
+		};
+		B8CF7083C78642E4561158F6A1E55E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-library";
+			target = 616EB70CB51A1DEC76B441130B8ED6AE /* Brightcove-Player-Core-library */;
+			targetProxy = 104F1578671FAEEF08FCAF188A3DBE70 /* PBXContainerItemProxy */;
+		};
+		BCA27166A816E683FFFCAF167B34BC60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-framework";
+			target = 879C7600C627EF5610393067A8E4434A /* Brightcove-Player-Core-framework */;
+			targetProxy = 7E187C089531FB90B08556314DB7E29F /* PBXContainerItemProxy */;
+		};
+		BFBB4CACA4ADDED5FBFD01F522758EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-library-BCOVPUIResources";
+			target = 7BEED93A992C56DD316904F5B9FB4023 /* Brightcove-Player-Core-library-BCOVPUIResources */;
+			targetProxy = FE81080FA93FB45F39C9405C744BBD01 /* PBXContainerItemProxy */;
+		};
+		E02FCA0D0AE998AD7FAB570CF0E73E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Omniture-framework";
+			target = 1F56072BF7A9F23861E79E4F98F5B75A /* Brightcove-Player-Omniture-framework */;
+			targetProxy = D76FDC22196ECBCF1A8F6C163DAEB1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0013B08F7070FF059A45400CCA704A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8B1CD5AA38B07E82B8C98F87BA6803 /* Pods-ADBMobileSamples - Bloodhound.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples - Bloodhound/Pods-ADBMobileSamples - Bloodhound-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples - Bloodhound/Pods-ADBMobileSamples - Bloodhound.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08CC35B656EC7A5023BCEEB55AA3D6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AFB2806E5E26DFFDB469327EBB2AEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495B3A75A37085663CB48892CA2ADBE4 /* Pods-ADBMobileSamples - Dev.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples - Dev/Pods-ADBMobileSamples - Dev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples - Dev/Pods-ADBMobileSamples - Dev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2866853DBA1A6B5F385EADFA551BAA3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2A20D48950C084431B1EF505492958 /* Brightcove-Player-Omniture-framework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B04A38AF1EC8962AF81C6D344CEF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core-library";
+				IBSC_MODULE = Brightcove_Player_Core;
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core-library/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4AAB414111BCA660D992AE2D91F0F89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0043911FD99FF8297B52FFEA858B8A8C /* Brightcove-Player-Omniture-library.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B0E7DD903F36244455AC840FF3D88C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4B5E3D5CE3267B930D38050C2F19F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core-library";
+				IBSC_MODULE = Brightcove_Player_Core;
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core-library/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-library-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552AEC54C96C343CB74A9164B95FF249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core-framework";
+				IBSC_MODULE = Brightcove_Player_Core;
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core-framework/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		56EDD7F78ECD61BA324F2BF21630D9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8649075526507FA15346257329506298 /* Brightcove-Player-Core-framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core-framework";
+				IBSC_MODULE = Brightcove_Player_Core;
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core-framework/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5800315E62FA5859BA23885B08E673A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F37FC1A8A7E06D991906B8625DEA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9135B02829042D615CCD53ABBE0A4DA3 /* Pods-ADBMobileSamples - Dev.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples - Dev/Pods-ADBMobileSamples - Dev-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples - Dev/Pods-ADBMobileSamples - Dev.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6750706995DE901EDFB9B793ABD4B762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2A20D48950C084431B1EF505492958 /* Brightcove-Player-Omniture-framework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		909C216AEFC894B0970F4E24BE867491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924809FED3E6ECB16D5347B4A21D047F /* Pods-ADBMobileSamples - Bloodhound.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples - Bloodhound/Pods-ADBMobileSamples - Bloodhound-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples - Bloodhound/Pods-ADBMobileSamples - Bloodhound.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		925EFFE2E90F974E9173DD73DE9220E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC4523403F50C2974BA5B5F8FC1141B /* Pods-ADBMobileSamples.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2D2A46C01599E830C92168FC6BA33A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36835974A19B9D2E0AA1C72BC3F2AEF /* Brightcove-Player-Core-library.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2AED860CFDA93A1DEDB19340DF0CF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0043911FD99FF8297B52FFEA858B8A8C /* Brightcove-Player-Omniture-library.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B523112FC08320B8A61A0F0A0A5DC37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D90E54E961F24FFF2904434F69CE65 /* Pods-ADBMobileSamples.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B69C69472EE3D0D1199F63A455C823B /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-framework-BCOVPUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EDD7F78ECD61BA324F2BF21630D9BE /* Debug */,
+				552AEC54C96C343CB74A9164B95FF249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354BFB65B829B15EF5A19919ACBFCBBA /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B523112FC08320B8A61A0F0A0A5DC37A /* Debug */,
+				925EFFE2E90F974E9173DD73DE9220E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4743FE72940658070DF907BC14D72649 /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples - Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFB2806E5E26DFFDB469327EBB2AEBE /* Debug */,
+				5F37FC1A8A7E06D991906B8625DEA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1D435D8A13093EA956073B8A14F5A9 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D2A46C01599E830C92168FC6BA33A6 /* Debug */,
+				5800315E62FA5859BA23885B08E673A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D5E26B7FD325E317DD29138A77BE91 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Omniture-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6750706995DE901EDFB9B793ABD4B762 /* Debug */,
+				2866853DBA1A6B5F385EADFA551BAA3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C81754B6F12BA22828F6AC8D469EB2 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Omniture-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAB414111BCA660D992AE2D91F0F89A /* Debug */,
+				B2AED860CFDA93A1DEDB19340DF0CF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BCB34E878731F912EAFCABEF22CD5F /* Build configuration list for PBXNativeTarget "Pods-ADBMobileSamples - Bloodhound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0013B08F7070FF059A45400CCA704A6C /* Debug */,
+				909C216AEFC894B0970F4E24BE867491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9109D80375DB8E67959908ED2A2FF96 /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-library-BCOVPUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B04A38AF1EC8962AF81C6D344CEF9A /* Debug */,
+				4F4B5E3D5CE3267B930D38050C2F19F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26F180FA7C9FA44E551C294A83198C0 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CC35B656EC7A5023BCEEB55AA3D6BA /* Debug */,
+				4B0E7DD903F36244455AC840FF3D88C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

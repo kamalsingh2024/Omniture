@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adobe.adbmobilesamples">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application android:label="SDK Samples" android:icon="@drawable/icon" android:theme="@android:style/Theme.NoTitleBar">
+
+        <activity android:name="MenuActivity" android:label="SDK Samples" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimpleTrackingActivity" android:screenOrientation="portrait" />
+        <activity android:name=".GalleryActivity" android:screenOrientation="portrait" />
+        <activity android:name=".TimedActionsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PrivacyActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MediaActivity" android:screenOrientation="portrait" />
+        <activity android:name=".TargetingLocationActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LifetimeValueActivity" android:screenOrientation="portrait" />
+        <activity android:name=".VideoPlayerActivity" />
+
+        <activity android:name="com.adobe.mobile.MessageFullScreenActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+
+
+        <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
+
+
+
+    </application>
+</manifest>
+

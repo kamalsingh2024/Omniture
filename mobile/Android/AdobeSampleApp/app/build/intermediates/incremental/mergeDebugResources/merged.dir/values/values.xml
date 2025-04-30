@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="captioning_color_selector_titles" translatable="false">
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+        <item>@string/color_red</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_green</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_magenta</item>
+    </string-array>
+    <integer-array name="captioning_color_selector_values" translatable="false">
+        <item>0xFFFFFFFF</item>
+        <item>0xFF000000</item>
+        <item>0xFFFF0000</item>
+        <item>0xFFFFFF00</item>
+        <item>0xFF00FF00</item>
+        <item>0xFF00FFFF</item>
+        <item>0xFF0000FF</item>
+        <item>0xFFFF00FF</item>
+        <item>0xFF000055</item>
+        <item>0xFF0000AA</item>
+        <item>0xFF005500</item>
+        <item>0xFF005555</item>
+        <item>0xFF0055AA</item>
+        <item>0xFF0055FF</item>
+        <item>0xFF00AA00</item>
+        <item>0xFF00AA55</item>
+        <item>0xFF00AAAA</item>
+        <item>0xFF00AAFF</item>
+        <item>0xFF00FF55</item>
+        <item>0xFF00FFAA</item>
+        <item>0xFF550000</item>
+        <item>0xFF550055</item>
+        <item>0xFF5500AA</item>
+        <item>0xFF5500FF</item>
+        <item>0xFF555500</item>
+        <item>0xFF555555</item>
+        <item>0xFF5555AA</item>
+        <item>0xFF5555FF</item>
+        <item>0xFF55AA00</item>
+        <item>0xFF55AA55</item>
+        <item>0xFF55AAAA</item>
+        <item>0xFF55AAFF</item>
+        <item>0xFF55FF00</item>
+        <item>0xFF55FF55</item>
+        <item>0xFF55FFAA</item>
+        <item>0xFF55FFFF</item>
+        <item>0xFFAA0000</item>
+        <item>0xFFAA0055</item>
+        <item>0xFFAA00AA</item>
+        <item>0xFFAA00FF</item>
+        <item>0xFFAA5500</item>
+        <item>0xFFAA5555</item>
+        <item>0xFFAA55AA</item>
+        <item>0xFFAA55FF</item>
+        <item>0xFFAAAA00</item>
+        <item>0xFFAAAA55</item>
+        <item>0xFFAAAAAA</item>
+        <item>0xFFAAAAFF</item>
+        <item>0xFFAAFF00</item>
+        <item>0xFFAAFF55</item>
+        <item>0xFFAAFFAA</item>
+        <item>0xFFAAFFFF</item>
+        <item>0xFFFF0055</item>
+        <item>0xFFFF00AA</item>
+        <item>0xFFFF5500</item>
+        <item>0xFFFF5555</item>
+        <item>0xFFFF55AA</item>
+        <item>0xFFFF55FF</item>
+        <item>0xFFFFAA00</item>
+        <item>0xFFFFAA55</item>
+        <item>0xFFFFAAAA</item>
+        <item>0xFFFFAAFF</item>
+        <item>0xFFFFFF55</item>
+        <item>0xFFFFFFAA</item>
+    </integer-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+    </string-array>
+    <integer-array name="captioning_edge_type_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_values" translatable="false">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <integer-array name="captioning_opacity_selector_values" translatable="false">
+        <item>0x40FFFFFF</item>
+        <item>0x80FFFFFF</item>
+        <item>0xC0FFFFFF</item>
+        <item>0xFFFFFFFF</item>
+    </integer-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Yellow on blue</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="captioning_preset_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>-1</item>
+    </integer-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_values" translatable="false">
+        <item>sans-serif</item>
+        <item>sans-serif-condensed</item>
+        <item>serif</item>
+        <item>monospace</item>
+    </string-array>
+    <attr format="reference" name="controller_layout_id"/>
+    <attr format="integer" name="fastforward_increment"/>
+    <attr format="reference" name="player_layout_id"/>
+    <attr name="repeat_toggle_modes">
+    <flag name="none" value="0"/>
+    <flag name="one" value="1"/>
+    <flag name="all" value="2"/>
+  </attr>
+    <attr format="enum" name="resize_mode">
+    <enum name="fit" value="0"/>
+    <enum name="fixed_width" value="1"/>
+    <enum name="fixed_height" value="2"/>
+    <enum name="fill" value="3"/>
+    <enum name="zoom" value="4"/>
+  </attr>
+    <attr format="integer" name="rewind_increment"/>
+    <attr format="boolean" name="show_shuffle_button"/>
+    <attr format="integer" name="show_timeout"/>
+    <attr format="enum" name="surface_type">
+    <enum name="none" value="0"/>
+    <enum name="surface_view" value="1"/>
+    <enum name="texture_view" value="2"/>
+  </attr>
+    <color name="black_semi_trans">#73000000</color>
+    <color name="bmc_background">@color/black_semi_trans</color>
+    <color name="bmc_button">@color/white_almost_opaque</color>
+    <color name="bmc_button_disabled">@color/white_semi_trans</color>
+    <color name="bmc_live">@color/green_almost_opaque</color>
+    <color name="bmc_not_live">@color/white_almost_opaque</color>
+    <color name="bmc_seekbar_buffered">@color/white_semi_trans</color>
+    <color name="bmc_seekbar_marker">@color/white_semi_trans</color>
+    <color name="bmc_seekbar_marker_tv">@color/yellow</color>
+    <color name="bmc_seekbar_played">@color/fuchsia</color>
+    <color name="bmc_seekbar_thumb_center">@color/white</color>
+    <color name="bmc_seekbar_thumb_outside">@color/white_semi_trans</color>
+    <color name="bmc_seekbar_track">@color/white_semi_trans</color>
+    <color name="bmc_time_text">@color/white_almost_opaque</color>
+    <color name="exo_edit_mode_background_color">#FFF4F3F0</color>
+    <color name="fuchsia">#d52484</color>
+    <color name="gray_semi_trans">#73000000</color>
+    <color name="green_almost_opaque">#CC00ff00</color>
+    <color name="lighter_gray">#939393</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="smoke">#282828</color>
+    <color name="white">#ffffff</color>
+    <color name="white_almost_opaque">#CCFFFFFF</color>
+    <color name="white_semi_trans">#4DFFFFFF</color>
+    <color name="yellow">#ffff00</color>
+    <dimen name="captioning_preview_height">200dp</dimen>
+    <dimen name="captions_text_size">18sp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="exo_media_button_height">52dp</dimen>
+    <dimen name="exo_media_button_width">71dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="player_control_button_small_min_height_tv">8dp</dimen>
+    <dimen name="player_control_button_small_min_width_tv">8dp</dimen>
+    <dimen name="player_control_text_size_small_tv">20sp</dimen>
+    <dimen name="player_control_text_size_tv">28sp</dimen>
+    <dimen name="player_live_indicator_size">12dp</dimen>
+    <dimen name="player_options_button_margin_left_tv">28dp</dimen>
+    <dimen name="player_options_button_margin_right_tv">28dp</dimen>
+    <dimen name="player_options_button_padding_tv">8dp</dimen>
+    <dimen name="player_options_title_margin_bottom_tv">8dp</dimen>
+    <dimen name="player_options_title_margin_left_tv">80dp</dimen>
+    <dimen name="player_options_title_margin_top_tv">36dp</dimen>
+    <dimen name="player_options_title_text_size_tv">16sp</dimen>
+    <dimen name="player_options_width_tv">250dp</dimen>
+    <dimen name="player_overscan_margin_bottom_tv">27dp</dimen>
+    <dimen name="player_overscan_margin_left_tv">48dp</dimen>
+    <dimen name="player_overscan_margin_right_tv">48dp</dimen>
+    <dimen name="player_overscan_margin_top_tv">27dp</dimen>
+    <dimen name="player_seekbar_stroke_width">4dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="audio_tracks" type="id"/>
+    <item name="captions" type="id"/>
+    <item name="close" type="id"/>
+    <item name="current_time" type="id"/>
+    <item name="end_time" type="id"/>
+    <item name="exo_artwork" type="id"/>
+    <item name="exo_content_frame" type="id"/>
+    <item name="exo_controller" type="id"/>
+    <item name="exo_controller_placeholder" type="id"/>
+    <item name="exo_duration" type="id"/>
+    <item name="exo_ffwd" type="id"/>
+    <item name="exo_next" type="id"/>
+    <item name="exo_overlay" type="id"/>
+    <item name="exo_pause" type="id"/>
+    <item name="exo_play" type="id"/>
+    <item name="exo_position" type="id"/>
+    <item name="exo_prev" type="id"/>
+    <item name="exo_progress" type="id"/>
+    <item name="exo_repeat_toggle" type="id"/>
+    <item name="exo_rew" type="id"/>
+    <item name="exo_shuffle" type="id"/>
+    <item name="exo_shutter" type="id"/>
+    <item name="exo_subtitles" type="id"/>
+    <item name="fast_forward" type="id"/>
+    <item name="full_screen" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="live" type="id"/>
+    <item name="one_line_spacer" type="id"/>
+    <item name="picture_in_picture" type="id"/>
+    <item name="play" type="id"/>
+    <item name="player_options" type="id"/>
+    <item name="rewind" type="id"/>
+    <item name="seek_bar" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="time_separator" type="id"/>
+    <item name="title" type="id"/>
+    <item name="two_line_spacer" type="id"/>
+    <item name="vr_mode" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="default_animation_timeout">3000</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="app_name">ADBMobileSamples</string>
+    <string name="brightcove_arrow_down"></string>
+    <string name="brightcove_arrow_down_1"></string>
+    <string name="brightcove_arrow_down_2"></string>
+    <string name="brightcove_arrow_down_3"></string>
+    <string name="brightcove_arrow_up"></string>
+    <string name="brightcove_audio_track_selection">Audio Track Selection</string>
+    <string name="brightcove_caption_selection">Caption Selection</string>
+    <string name="brightcove_captioning_title">Captions</string>
+    <string name="brightcove_controls_audio_tracks"></string>
+    <string name="brightcove_controls_audio_tracks_tv">Audio</string>
+    <string name="brightcove_controls_captions"></string>
+    <string name="brightcove_controls_captions_tv">Captions</string>
+    <string name="brightcove_controls_close"></string>
+    <string name="brightcove_controls_enter_full_screen"></string>
+    <string name="brightcove_controls_exit_full_screen"></string>
+    <string name="brightcove_controls_fast_backward"></string>
+    <string name="brightcove_controls_fast_forward"></string>
+    <string name="brightcove_controls_live">Live</string>
+    <string name="brightcove_controls_pause"></string>
+    <string name="brightcove_controls_play"> </string>
+    <string name="brightcove_controls_player_options"></string>
+    <string name="brightcove_controls_rewind"></string>
+    <string name="brightcove_controls_vr_mode"></string>
+    <string name="brightcove_picture_in_picture_off"></string>
+    <string name="brightcove_picture_in_picture_on"></string>
+    <string name="brightcove_settings">Settings</string>
+    <string name="captioning_background_color">Background color</string>
+    <string name="captioning_background_opacity">Background opacity</string>
+    <string name="captioning_custom_options_title">Custom options</string>
+    <string name="captioning_edge_color">Edge color</string>
+    <string name="captioning_edge_type">Edge type</string>
+    <string name="captioning_foreground_color">Text color</string>
+    <string name="captioning_foreground_opacity">Text opacity</string>
+    <string name="captioning_preset">Caption style</string>
+    <string name="captioning_preview_characters">Aa</string>
+    <string name="captioning_preview_text">Captions will look like this</string>
+    <string name="captioning_standard_options_title">Standard options</string>
+    <string name="captioning_text_size">Text size</string>
+    <string name="captioning_typeface">Font family</string>
+    <string name="captioning_window_color">Caption window color</string>
+    <string name="captioning_window_opacity">Caption window opacity</string>
+    <string name="color_black">Black</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_custom" translatable="false">#%1$02X%2$02X%3$02X</string>
+    <string name="color_cyan">Cyan</string>
+    <string name="color_green">Green</string>
+    <string name="color_magenta">Magenta</string>
+    <string name="color_none">None</string>
+    <string name="color_red">Red</string>
+    <string name="color_white">White</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="desc_audio_tracks">Audio Tracks</string>
+    <string name="desc_captions">Closed Captions</string>
+    <string name="desc_close">Close button</string>
+    <string name="desc_enter_full_screen">Enter Fullscreen</string>
+    <string name="desc_exit_full_screen">Exit Fullscreen</string>
+    <string name="desc_fast_forward">Forward</string>
+    <string name="desc_live">Live</string>
+    <string name="desc_pause">Pause</string>
+    <string name="desc_picture_in_picture">Picture in Picture</string>
+    <string name="desc_play">Play</string>
+    <string name="desc_player_options">Player options</string>
+    <string name="desc_rewind">Rewind</string>
+    <string name="desc_vr_mode">VR mode</string>
+    <string name="drm_exception_minimum_api_level">The minimum Android API level required for DRM Session Manager is 18</string>
+    <string name="exo_controls_fastforward_description">Fast forward</string>
+    <string name="exo_controls_next_description">Next track</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_previous_description">Previous track</string>
+    <string name="exo_controls_repeat_all_description">Repeat all</string>
+    <string name="exo_controls_repeat_off_description">Repeat none</string>
+    <string name="exo_controls_repeat_one_description">Repeat one</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_shuffle_description">Shuffle</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="imageDescription">Use Adobe Target in conjunction with trackLocation(...) to target your users based on their geographical location.</string>
+    <string name="lifetimeValue">Use Lifetime Value to track the value of a user through the lifetime of use in the app.</string>
+    <string name="odrm_download_cancelling">Cancelling...</string>
+    <string name="odrm_download_complete">Saved</string>
+    <string name="odrm_download_deleting">Deleting...</string>
+    <string name="odrm_download_failed">Failed!</string>
+    <string name="odrm_download_not_queued"/>
+    <string name="odrm_download_paused">Paused</string>
+    <string name="odrm_download_pending">Waiting...</string>
+    <string name="odrm_download_queuing">Queuing video download...</string>
+    <string name="odrm_download_running">Downloading...</string>
+    <string name="odrm_download_waiting_retry">Waiting retry...</string>
+    <string name="odrm_error_cannot_resume">Unable to download video. Please check your network connection and then try again.</string>
+    <string name="odrm_error_device_not_found">Unable to save video. Please clean up your device memory and then try again.</string>
+    <string name="odrm_error_file_already_exists">Unable to save video. Please clean up your device memory and then try again.</string>
+    <string name="odrm_error_file_error">Unable to save video. Please clean up your device memory and then try again.</string>
+    <string name="odrm_error_http_data_error">Unable to download video. Please check your network connection and then try again.</string>
+    <string name="odrm_error_insufficient_space">Not enough space to save video. Please clean up your device memory and then try again.</string>
+    <string name="odrm_error_none"/>
+    <string name="odrm_error_too_many_redirects">Unable to download video. Please check your network connection and then try again.</string>
+    <string name="odrm_error_unhandled_http_code">Unable to download video. Please check your network connection and then try again.</string>
+    <string name="odrm_error_unknown">Unable to download video. Please check your network connection and then try again.</string>
+    <string name="odrm_paused_unknown">Waiting for stable network connection...</string>
+    <string name="odrm_paused_waiting_for_network">Waiting for network connection...</string>
+    <string name="odrm_paused_waiting_for_wifi">Waiting for WIFI network...</string>
+    <string name="odrm_paused_waiting_to_retry">Waiting to reattempt download...</string>
+    <string name="offline_playback_notification_channel_id">offline_playback_notification_channel_id</string>
+    <string name="offline_playback_notification_channel_name">Download Notifications</string>
+    <string name="privacy">When set to Opt In, hits will be sent.\n\nWhen set to Opt Out, hits are discarded.\n\nThe config file is set to track offline, so when set to Opt Unknown, hits will be saved until status goes back to Opt In (saved hits are sent) or Opt Out (saved hits are discarded).</string>
+    <string name="s1">Save image</string>
+    <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="targetLocation">Use Adobe Target in conjunction with trackLocation(...) to target your users based on their geographical location.</string>
+    <string name="time_placeholder">0:00</string>
+    <string name="time_separator"> / </string>
+    <string name="timedActions">Starting a timed action that is already running will restart that action.\n\nTry backgrounding the app while a timed action is running, then stopping the action after relaunching the app.</string>
+    <string name="trackAction">Use trackAction:data: to send in actions that happen on any given page, like a button click or ad click.</string>
+    <string name="trackState">Use trackState:data: to send in page views.\n\nContext data is an optional way to send additional data with your hit.</string>
+    <style name="BorderlessButton" parent="BorderlessButtonDefault"/>
+    <style name="BorderlessButton.TV">
+        <item name="android:background">@drawable/player_on_focused_selector</item>
+        <item name="android:textSize">@dimen/player_control_text_size_tv</item>
+    </style>
+    <style name="BorderlessButton.TV.Live">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@drawable/player_on_focused_text_selector</item>
+        <item name="android:textSize">@dimen/player_control_text_size_small_tv</item>
+    </style>
+    <style name="BorderlessButtonDefault" parent="android:Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/bmc_button</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="BrightcoveControlBar" parent="BrightcoveControlBarDefault"/>
+    <style name="BrightcoveControlBar.Pip">
+        <item name="brightcove_audio_tracks">false</item>
+        <item name="brightcove_closed_captions">false</item>
+        <item name="brightcove_full_screen">false</item>
+        <item name="brightcove_live">false</item>
+        <item name="brightcove_play">false</item>
+        <item name="brightcove_rewind">false</item>
+        <item name="brightcove_fast_forward">false</item>
+        <item name="brightcove_seekbar">false</item>
+        <item name="brightcove_picture_in_picture">true</item>
+        <item name="brightcove_close">true</item>
+        <item name="brightcove_vr_mode">false</item>
+    </style>
+    <style name="BrightcoveControlBar.TV">
+        <!--<item name="brightcove_marker_color">@color/bmc_seekbar_marker_tv</item>-->
+        <item name="brightcove_rewind">true</item>
+        <item name="brightcove_fast_forward">true</item>
+        <item name="brightcove_full_screen">false</item>
+        <item name="brightcove_audio_tracks">true</item>
+        <item name="brightcove_closed_captions">true</item>
+        <item name="brightcove_player_options">true</item>
+        <item name="brightcove_vr_mode">false</item>
+        <item name="brightcove_picture_in_picture">false</item>
+    </style>
+    <style name="BrightcoveControlBarDefault">
+        <item name="brightcove_audio_tracks">true</item>
+        <item name="brightcove_closed_captions">true</item>
+        <item name="brightcove_full_screen">true</item>
+        <item name="brightcove_live">true</item>
+        <item name="brightcove_play">true</item>
+        <item name="brightcove_rewind">true</item>
+        <item name="brightcove_fast_forward">false</item>
+        <item name="brightcove_seekbar">true</item>
+        <item name="brightcove_vr_mode">true</item>
+        <item name="brightcove_animation_style">fade</item>
+        <item name="brightcove_align">true</item>
+        <item name="brightcove_picture_in_picture">false</item>
+        <item name="brightcove_marker_color">@color/bmc_seekbar_marker</item>
+        <item name="brightcove_timeout">@integer/default_animation_timeout</item>
+    </style>
+    <style name="BrightcovePlayerOptions" parent="BrightcovePlayerOptionsDefault"/>
+    <style name="BrightcovePlayerOptionsButton" parent="BrightcovePlayerOptionsButtonDefault"/>
+    <style name="BrightcovePlayerOptionsButtonDefault" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:layout_marginLeft">@dimen/player_options_button_margin_left_tv</item>
+        <item name="android:layout_marginRight">@dimen/player_options_button_margin_right_tv</item>
+        <item name="android:padding">@dimen/player_options_button_padding_tv</item>
+        <item name="android:background">@drawable/player_option_item_bg</item>
+        <item name="android:button">@drawable/player_option_item_button</item>
+        <item name="android:textColor">@drawable/player_option_item_text</item>
+    </style>
+    <style name="BrightcovePlayerOptionsDefault">
+        <item name="android:layout_width">@dimen/player_options_width_tv</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@color/smoke</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="BrightcovePlayerOptionsTitle" parent="BrightcovePlayerOptionsTitleDefault"/>
+    <style name="BrightcovePlayerOptionsTitleDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/player_options_title_margin_bottom_tv</item>
+        <item name="android:layout_marginLeft">@dimen/player_options_title_margin_top_tv</item>
+        <item name="android:layout_marginTop">@dimen/player_options_title_margin_left_tv</item>
+        <item name="android:textSize">@dimen/player_options_title_text_size_tv</item>
+        <item name="android:textColor">@color/lighter_gray</item>
+    </style>
+    <style name="BrightcoveSeekBar" parent="BrightcoveSeekBarDefault"/>
+    <style name="BrightcoveSeekBar.TV">
+        <item name="android:thumb">@android:color/transparent</item>
+        <item name="android:thumbOffset">0dp</item>
+    </style>
+    <style name="BrightcoveSeekBarDefault" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/default_scrubber_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/default_scrubber_progress_horizontal</item>
+        <item name="android:thumb">@drawable/default_scrubber_thumb</item>
+        <item name="android:thumbOffset">16dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="ExoMediaButton">
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+    <item name="android:layout_width">@dimen/exo_media_button_width</item>
+    <item name="android:layout_height">@dimen/exo_media_button_height</item>
+  </style>
+    <style name="ExoMediaButton.FastForward">
+    <item name="android:src">@drawable/exo_controls_fastforward</item>
+    <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+  </style>
+    <style name="ExoMediaButton.Next">
+    <item name="android:src">@drawable/exo_controls_next</item>
+    <item name="android:contentDescription">@string/exo_controls_next_description</item>
+  </style>
+    <style name="ExoMediaButton.Pause">
+    <item name="android:src">@drawable/exo_controls_pause</item>
+    <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+  </style>
+    <style name="ExoMediaButton.Play">
+    <item name="android:src">@drawable/exo_controls_play</item>
+    <item name="android:contentDescription">@string/exo_controls_play_description</item>
+  </style>
+    <style name="ExoMediaButton.Previous">
+    <item name="android:src">@drawable/exo_controls_previous</item>
+    <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+  </style>
+    <style name="ExoMediaButton.Rewind">
+    <item name="android:src">@drawable/exo_controls_rewind</item>
+    <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+  </style>
+    <style name="ExoMediaButton.Shuffle">
+    <item name="android:src">@drawable/exo_controls_shuffle</item>
+    <item name="android:contentDescription">@string/exo_controls_shuffle_description</item>
+  </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+<item name="android:windowIsFloating">true</item>
+<item name="android:windowBackground">@android:color/transparent</item>
+<item name="android:windowContentOverlay">@null</item>
+<item name="android:windowNoTitle">true</item>
+<item name="android:backgroundDimEnabled">false</item>
+<item name="android:windowIsTranslucent">true</item>
+</style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="caption_text_bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="caption_text_default">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/captions_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="caption_text_italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <declare-styleable name="AdsAttrs">
+<attr format="string" name="adSize"/>
+
+<attr format="string" name="adSizes"/>
+
+<attr format="string" name="adUnitId"/>
+</declare-styleable>
+    <declare-styleable name="AspectRatioFrameLayout"><attr name="resize_mode"/></declare-styleable>
+    <declare-styleable name="BrightcoveMediaController"><attr format="string" name="brightcove_animation_style"/><attr format="boolean" name="brightcove_chrome_cast"/><attr format="boolean" name="brightcove_chrome_cast_image"/><attr format="boolean" name="brightcove_audio_tracks"/><attr format="reference" name="brightcove_audio_tracks_image"/><attr format="boolean" name="brightcove_closed_captions"/><attr format="reference" name="brightcove_closed_captions_image"/><attr format="reference" name="brightcove_enter_full_screen_image"/><attr format="reference" name="brightcove_exit_full_screen_image"/><attr format="boolean" name="brightcove_full_screen"/><attr format="boolean" name="brightcove_live"/><attr format="boolean" name="brightcove_picture_in_picture"/><attr format="reference" name="brightcove_picture_in_picture_on_image"/><attr format="reference" name="brightcove_picture_in_picture_off_image"/><attr format="boolean" name="brightcove_close"/><attr format="reference" name="brightcove_close_image"/><attr format="color" name="brightcove_marker_color"/><attr format="float" name="brightcove_marker_width"/><attr format="reference" name="brightcove_pause_image"/><attr format="boolean" name="brightcove_play"/><attr format="reference" name="brightcove_play_image"/><attr format="boolean" name="brightcove_rewind"/><attr format="reference" name="brightcove_rewind_image"/><attr format="boolean" name="brightcove_fast_forward"/><attr format="reference" name="brightcove_fast_forward_image"/><attr format="boolean" name="brightcove_vr_mode"/><attr format="reference" name="brightcove_vr_mode_image"/><attr format="boolean" name="brightcove_seekbar"/><attr format="integer" name="brightcove_timeout"/><attr format="boolean" name="brightcove_align"/><attr format="boolean" name="brightcove_player_options"/><attr format="reference" name="brightcove_player_options_image"/></declare-styleable>
+    <declare-styleable name="DefaultTimeBar"><attr format="dimension" name="bar_height"/><attr format="dimension" name="touch_target_height"/><attr format="dimension" name="ad_marker_width"/><attr format="dimension" name="scrubber_enabled_size"/><attr format="dimension" name="scrubber_disabled_size"/><attr format="dimension" name="scrubber_dragged_size"/><attr format="reference" name="scrubber_drawable"/><attr format="color" name="played_color"/><attr format="color" name="scrubber_color"/><attr format="color" name="buffered_color"/><attr format="color" name="unplayed_color"/><attr format="color" name="ad_marker_color"/><attr format="color" name="played_ad_marker_color"/></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+          
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
+    <declare-styleable name="PlayerControlView"><attr name="show_timeout"/><attr name="rewind_increment"/><attr name="fastforward_increment"/><attr name="repeat_toggle_modes"/><attr name="show_shuffle_button"/><attr name="controller_layout_id"/></declare-styleable>
+    <declare-styleable name="PlayerView"><attr format="boolean" name="use_artwork"/><attr format="color" name="shutter_background_color"/><attr format="reference" name="default_artwork"/><attr format="boolean" name="use_controller"/><attr format="boolean" name="hide_on_touch"/><attr format="boolean" name="hide_during_ads"/><attr format="boolean" name="auto_show"/><attr name="resize_mode"/><attr name="surface_type"/><attr name="player_layout_id"/><attr name="show_timeout"/><attr name="rewind_increment"/><attr name="fastforward_increment"/><attr name="repeat_toggle_modes"/><attr name="show_shuffle_button"/><attr name="controller_layout_id"/></declare-styleable>
+</resources>

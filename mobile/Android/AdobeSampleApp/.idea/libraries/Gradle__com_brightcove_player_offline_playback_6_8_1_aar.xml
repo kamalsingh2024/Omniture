@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.brightcove.player:offline-playback:6.8.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a05c5ff121838913e3132c4f60e945f/offline-playback-6.8.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a05c5ff121838913e3132c4f60e945f/offline-playback-6.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a05c5ff121838913e3132c4f60e945f/offline-playback-6.8.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

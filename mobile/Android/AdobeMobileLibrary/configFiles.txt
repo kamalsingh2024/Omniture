@@ -1,0 +1,2 @@
+Config files have been moved to:
+/bigpond/omniture/mobile
